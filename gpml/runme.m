@@ -1,0 +1,16 @@
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/hia.txt.0.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/hia.txt.1.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/hia.txt.2.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/hia.txt.3.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/hia.txt.4.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/pgp.txt.0.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/pgp.txt.1.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/pgp.txt.2.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/pgp.txt.3.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/pgp.txt.4.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/tdp.txt.0.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/tdp.txt.1.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/tdp.txt.2.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/tdp.txt.3.mat");
+% classification("/Users/nickp/Dropbox/Repos/mkl/matlab/tdp.txt.4.mat");
+classification("/Users/nickp/Dropbox/Repos/mkl/matlab/synthredundant.txt.0.mat");

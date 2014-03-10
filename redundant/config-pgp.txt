@@ -1,0 +1,11 @@
+name=MKL
+data=data/xue/pgp.1.pkl
+data=data/xue/pgp.2.pkl
+data=data/xue/pgp.3.pkl
+data=data/xue/pgp.4.pkl
+data=data/xue/pgp.5.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=10
+runs=5

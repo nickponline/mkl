@@ -1,0 +1,10 @@
+NAME=MKL
+RUNS=2
+FOLDS=5
+PARAM_BOUND=10
+PARAMETERS=2
+FEATURES=1
+KERNEL=GaussianKernel
+OPTIMIZER=GridSearch
+DATA=data/moons/moons.0.pkl
+DATA=data/moons/circles.5.pkl

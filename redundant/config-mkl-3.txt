@@ -1,0 +1,11 @@
+name=MKL
+data=data/iri/3_ip.pkl
+data=data/iri/3_goip.pkl
+data=data/iri/3_go_bp.pkl
+data=data/iri/3_go_cc.pkl
+data=data/iri/3_go_mf.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=15
+runs=50

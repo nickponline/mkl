@@ -1,0 +1,8 @@
+atlas
+distribute
+matplotlib
+numpy
+scikit-learn
+scipy
+threadpool
+wsgiref

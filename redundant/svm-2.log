@@ -1,0 +1,15 @@
+    "C1"=1024.000000 "C2"=1024.000000 
+    [0.795669,0.807825] with alpha=0.050000, mean=0.801747
+    Best:
+    root
+        "C1"=16.000000 "C2"=0.003906 
+        results= accuracy 0.920212994836
+        results= error_rate 0.077904475043
+        results= bal 0.0765171312427
+        results= wracc 0.844105691057
+        results= f1 0.918316157964
+        results= cross_correlation 0.84822553626
+        results= recall 0.890664924506
+        results= precision 0.951186027942
+        results= specificity 0.953614982578
+

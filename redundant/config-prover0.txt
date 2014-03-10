@@ -1,0 +1,9 @@
+name=SKL
+data=data/prover/prover0.pkl
+data=data/prover/prover_dynamic0.pkl
+data=data/prover/prover_static0.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=10
+runs=5

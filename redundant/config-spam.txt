@@ -1,0 +1,7 @@
+name=SKL
+data=data/spam/spam.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=10
+runs=5

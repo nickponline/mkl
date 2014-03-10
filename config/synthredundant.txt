@@ -1,0 +1,9 @@
+NAME=MKL
+RUNS=2
+FOLDS=5
+PARAM_BOUND=10
+PARAMETERS=1
+FEATURES=1
+KERNEL=GaussianKernel
+OPTIMIZER=SurrogateSearch
+DATA=data/moons/redundant.pkl

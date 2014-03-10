@@ -1,0 +1,7 @@
+name=SVM
+data=data/iri2/2_all.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=1
+folds=5
+runs=5

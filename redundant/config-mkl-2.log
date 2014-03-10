@@ -1,0 +1,1179 @@
+name=MKL
+data=data/iri2/2_ip.pkl
+data=data/iri2/2_goip.pkl
+data=data/iri2/2_go_bp.pkl
+data=data/iri2/2_go_cc.pkl
+data=data/iri2/2_go_mf.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=8
+folds=15
+runs=50
+feature-reduction ... 1
+classifier-type ... mkl
+parameter-selection ... grid
+Generating parameter combinations
+Direction is maximize
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.003906 
+[0.848488,0.851871] with alpha=0.050000, mean=0.850180
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.007812 
+[0.837102,0.841310] with alpha=0.050000, mean=0.839206
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.015625 
+[0.777614,0.782264] with alpha=0.050000, mean=0.779939
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.031250 
+[0.742338,0.746409] with alpha=0.050000, mean=0.744374
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.062500 
+[0.740243,0.745354] with alpha=0.050000, mean=0.742798
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.125000 
+[0.739741,0.744184] with alpha=0.050000, mean=0.741963
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.250000 
+[0.741363,0.746086] with alpha=0.050000, mean=0.743724
+trying combination:
+root
+	"C1"=0.003906 "C2"=0.500000 
+[0.739157,0.744544] with alpha=0.050000, mean=0.741850
+trying combination:
+root
+	"C1"=0.003906 "C2"=1.000000 
+[0.740415,0.744367] with alpha=0.050000, mean=0.742391
+trying combination:
+root
+	"C1"=0.003906 "C2"=2.000000 
+[0.741720,0.745835] with alpha=0.050000, mean=0.743777
+trying combination:
+root
+	"C1"=0.003906 "C2"=4.000000 
+[0.742045,0.746024] with alpha=0.050000, mean=0.744034
+trying combination:
+root
+	"C1"=0.003906 "C2"=8.000000 
+[0.742162,0.746180] with alpha=0.050000, mean=0.744171
+trying combination:
+root
+	"C1"=0.003906 "C2"=16.000000 
+[0.741160,0.745407] with alpha=0.050000, mean=0.743283
+trying combination:
+root
+	"C1"=0.003906 "C2"=32.000000 
+[0.740699,0.746024] with alpha=0.050000, mean=0.743361
+trying combination:
+root
+	"C1"=0.003906 "C2"=64.000000 
+[0.742248,0.746405] with alpha=0.050000, mean=0.744326
+trying combination:
+root
+	"C1"=0.003906 "C2"=128.000000 
+[0.739115,0.743666] with alpha=0.050000, mean=0.741390
+trying combination:
+root
+	"C1"=0.003906 "C2"=256.000000 
+[0.739069,0.744307] with alpha=0.050000, mean=0.741688
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.003906 
+[0.847599,0.850373] with alpha=0.050000, mean=0.848986
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.007812 
+[0.838885,0.842462] with alpha=0.050000, mean=0.840674
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.015625 
+[0.827137,0.832321] with alpha=0.050000, mean=0.829729
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.031250 
+[0.770765,0.775160] with alpha=0.050000, mean=0.772962
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.062500 
+[0.760160,0.764850] with alpha=0.050000, mean=0.762505
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.125000 
+[0.758338,0.763136] with alpha=0.050000, mean=0.760737
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.250000 
+[0.758623,0.763091] with alpha=0.050000, mean=0.760857
+trying combination:
+root
+	"C1"=0.007812 "C2"=0.500000 
+[0.757556,0.762357] with alpha=0.050000, mean=0.759956
+trying combination:
+root
+	"C1"=0.007812 "C2"=1.000000 
+[0.756927,0.761894] with alpha=0.050000, mean=0.759410
+trying combination:
+root
+	"C1"=0.007812 "C2"=2.000000 
+[0.756281,0.761185] with alpha=0.050000, mean=0.758733
+trying combination:
+root
+	"C1"=0.007812 "C2"=4.000000 
+[0.761407,0.765816] with alpha=0.050000, mean=0.763611
+trying combination:
+root
+	"C1"=0.007812 "C2"=8.000000 
+[0.758101,0.762145] with alpha=0.050000, mean=0.760123
+trying combination:
+root
+	"C1"=0.007812 "C2"=16.000000 
+[0.760008,0.764741] with alpha=0.050000, mean=0.762374
+trying combination:
+root
+	"C1"=0.007812 "C2"=32.000000 
+[0.758628,0.763615] with alpha=0.050000, mean=0.761122
+trying combination:
+root
+	"C1"=0.007812 "C2"=64.000000 
+[0.757694,0.762584] with alpha=0.050000, mean=0.760139
+trying combination:
+root
+	"C1"=0.007812 "C2"=128.000000 
+[0.759942,0.764204] with alpha=0.050000, mean=0.762073
+trying combination:
+root
+	"C1"=0.007812 "C2"=256.000000 
+[0.759002,0.764340] with alpha=0.050000, mean=0.761671
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.003906 
+[0.849216,0.852592] with alpha=0.050000, mean=0.850904
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.007812 
+[0.840153,0.844244] with alpha=0.050000, mean=0.842198
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.015625 
+[0.834756,0.838615] with alpha=0.050000, mean=0.836686
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.031250 
+[0.805936,0.811245] with alpha=0.050000, mean=0.808590
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.062500 
+[0.768345,0.772725] with alpha=0.050000, mean=0.770535
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.125000 
+[0.767611,0.772560] with alpha=0.050000, mean=0.770086
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.250000 
+[0.767118,0.771014] with alpha=0.050000, mean=0.769066
+trying combination:
+root
+	"C1"=0.015625 "C2"=0.500000 
+[0.767692,0.772503] with alpha=0.050000, mean=0.770097
+trying combination:
+root
+	"C1"=0.015625 "C2"=1.000000 
+[0.768198,0.772683] with alpha=0.050000, mean=0.770441
+trying combination:
+root
+	"C1"=0.015625 "C2"=2.000000 
+[0.767628,0.771924] with alpha=0.050000, mean=0.769776
+trying combination:
+root
+	"C1"=0.015625 "C2"=4.000000 
+[0.770402,0.774649] with alpha=0.050000, mean=0.772525
+trying combination:
+root
+	"C1"=0.015625 "C2"=8.000000 
+[0.768628,0.772897] with alpha=0.050000, mean=0.770763
+trying combination:
+root
+	"C1"=0.015625 "C2"=16.000000 
+[0.768090,0.772813] with alpha=0.050000, mean=0.770452
+trying combination:
+root
+	"C1"=0.015625 "C2"=32.000000 
+[0.768973,0.772963] with alpha=0.050000, mean=0.770968
+trying combination:
+root
+	"C1"=0.015625 "C2"=64.000000 
+[0.768699,0.773601] with alpha=0.050000, mean=0.771150
+trying combination:
+root
+	"C1"=0.015625 "C2"=128.000000 
+[0.768031,0.773298] with alpha=0.050000, mean=0.770665
+trying combination:
+root
+	"C1"=0.015625 "C2"=256.000000 
+[0.767020,0.771093] with alpha=0.050000, mean=0.769056
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.003906 
+[0.849978,0.853345] with alpha=0.050000, mean=0.851661
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.007812 
+[0.837953,0.841411] with alpha=0.050000, mean=0.839682
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.015625 
+[0.835814,0.839318] with alpha=0.050000, mean=0.837566
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.031250 
+[0.829695,0.833343] with alpha=0.050000, mean=0.831519
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.062500 
+[0.790082,0.795329] with alpha=0.050000, mean=0.792706
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.125000 
+[0.787646,0.792637] with alpha=0.050000, mean=0.790142
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.250000 
+[0.787558,0.792569] with alpha=0.050000, mean=0.790064
+trying combination:
+root
+	"C1"=0.031250 "C2"=0.500000 
+[0.787895,0.792355] with alpha=0.050000, mean=0.790125
+trying combination:
+root
+	"C1"=0.031250 "C2"=1.000000 
+[0.787262,0.791834] with alpha=0.050000, mean=0.789548
+trying combination:
+root
+	"C1"=0.031250 "C2"=2.000000 
+[0.787953,0.793017] with alpha=0.050000, mean=0.790485
+trying combination:
+root
+	"C1"=0.031250 "C2"=4.000000 
+[0.791297,0.796713] with alpha=0.050000, mean=0.794005
+trying combination:
+root
+	"C1"=0.031250 "C2"=8.000000 
+[0.786497,0.791662] with alpha=0.050000, mean=0.789080
+trying combination:
+root
+	"C1"=0.031250 "C2"=16.000000 
+[0.790612,0.794614] with alpha=0.050000, mean=0.792613
+trying combination:
+root
+	"C1"=0.031250 "C2"=32.000000 
+[0.788719,0.793426] with alpha=0.050000, mean=0.791072
+trying combination:
+root
+	"C1"=0.031250 "C2"=64.000000 
+[0.789992,0.794096] with alpha=0.050000, mean=0.792044
+trying combination:
+root
+	"C1"=0.031250 "C2"=128.000000 
+[0.787703,0.792051] with alpha=0.050000, mean=0.789877
+trying combination:
+root
+	"C1"=0.031250 "C2"=256.000000 
+[0.788336,0.793780] with alpha=0.050000, mean=0.791058
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.003906 
+[0.848123,0.852656] with alpha=0.050000, mean=0.850389
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.007812 
+[0.840101,0.843932] with alpha=0.050000, mean=0.842016
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.015625 
+[0.837648,0.841623] with alpha=0.050000, mean=0.839636
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.031250 
+[0.829133,0.832915] with alpha=0.050000, mean=0.831024
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.062500 
+[0.817056,0.822399] with alpha=0.050000, mean=0.819728
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.125000 
+[0.796377,0.800518] with alpha=0.050000, mean=0.798448
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.250000 
+[0.794067,0.799274] with alpha=0.050000, mean=0.796671
+trying combination:
+root
+	"C1"=0.062500 "C2"=0.500000 
+[0.796255,0.801195] with alpha=0.050000, mean=0.798725
+trying combination:
+root
+	"C1"=0.062500 "C2"=1.000000 
+[0.794224,0.799029] with alpha=0.050000, mean=0.796627
+trying combination:
+root
+	"C1"=0.062500 "C2"=2.000000 
+[0.797514,0.801734] with alpha=0.050000, mean=0.799624
+trying combination:
+root
+	"C1"=0.062500 "C2"=4.000000 
+[0.795350,0.800143] with alpha=0.050000, mean=0.797747
+trying combination:
+root
+	"C1"=0.062500 "C2"=8.000000 
+[0.795708,0.800418] with alpha=0.050000, mean=0.798063
+trying combination:
+root
+	"C1"=0.062500 "C2"=16.000000 
+[0.797209,0.802137] with alpha=0.050000, mean=0.799673
+trying combination:
+root
+	"C1"=0.062500 "C2"=32.000000 
+[0.797565,0.802085] with alpha=0.050000, mean=0.799825
+trying combination:
+root
+	"C1"=0.062500 "C2"=64.000000 
+[0.794528,0.798990] with alpha=0.050000, mean=0.796759
+trying combination:
+root
+	"C1"=0.062500 "C2"=128.000000 
+[0.795318,0.800810] with alpha=0.050000, mean=0.798064
+trying combination:
+root
+	"C1"=0.062500 "C2"=256.000000 
+[0.796615,0.801623] with alpha=0.050000, mean=0.799119
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.003906 
+[0.848452,0.852133] with alpha=0.050000, mean=0.850292
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.007812 
+[0.839204,0.842374] with alpha=0.050000, mean=0.840789
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.015625 
+[0.834859,0.838406] with alpha=0.050000, mean=0.836632
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.031250 
+[0.829530,0.832880] with alpha=0.050000, mean=0.831205
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.062500 
+[0.817964,0.822017] with alpha=0.050000, mean=0.819990
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.125000 
+[0.798673,0.803068] with alpha=0.050000, mean=0.800870
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.250000 
+[0.797202,0.802215] with alpha=0.050000, mean=0.799709
+trying combination:
+root
+	"C1"=0.125000 "C2"=0.500000 
+[0.798804,0.803229] with alpha=0.050000, mean=0.801016
+trying combination:
+root
+	"C1"=0.125000 "C2"=1.000000 
+[0.796054,0.800668] with alpha=0.050000, mean=0.798361
+trying combination:
+root
+	"C1"=0.125000 "C2"=2.000000 
+[0.798487,0.802791] with alpha=0.050000, mean=0.800639
+trying combination:
+root
+	"C1"=0.125000 "C2"=4.000000 
+[0.794743,0.799509] with alpha=0.050000, mean=0.797126
+trying combination:
+root
+	"C1"=0.125000 "C2"=8.000000 
+[0.798524,0.803275] with alpha=0.050000, mean=0.800900
+trying combination:
+root
+	"C1"=0.125000 "C2"=16.000000 
+[0.795718,0.800667] with alpha=0.050000, mean=0.798193
+trying combination:
+root
+	"C1"=0.125000 "C2"=32.000000 
+[0.797842,0.802940] with alpha=0.050000, mean=0.800391
+trying combination:
+root
+	"C1"=0.125000 "C2"=64.000000 
+[0.797748,0.802480] with alpha=0.050000, mean=0.800114
+trying combination:
+root
+	"C1"=0.125000 "C2"=128.000000 
+[0.797325,0.802257] with alpha=0.050000, mean=0.799791
+trying combination:
+root
+	"C1"=0.125000 "C2"=256.000000 
+[0.798836,0.803588] with alpha=0.050000, mean=0.801212
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.003906 
+[0.847028,0.850083] with alpha=0.050000, mean=0.848556
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.007812 
+[0.839898,0.843469] with alpha=0.050000, mean=0.841684
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.015625 
+[0.837902,0.841331] with alpha=0.050000, mean=0.839617
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.031250 
+[0.829926,0.833444] with alpha=0.050000, mean=0.831685
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.062500 
+[0.819211,0.823169] with alpha=0.050000, mean=0.821190
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.125000 
+[0.798302,0.803304] with alpha=0.050000, mean=0.800803
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.250000 
+[0.797627,0.802077] with alpha=0.050000, mean=0.799852
+trying combination:
+root
+	"C1"=0.250000 "C2"=0.500000 
+[0.798141,0.803368] with alpha=0.050000, mean=0.800754
+trying combination:
+root
+	"C1"=0.250000 "C2"=1.000000 
+[0.799420,0.802989] with alpha=0.050000, mean=0.801205
+trying combination:
+root
+	"C1"=0.250000 "C2"=2.000000 
+[0.798133,0.801885] with alpha=0.050000, mean=0.800009
+trying combination:
+root
+	"C1"=0.250000 "C2"=4.000000 
+[0.797288,0.802188] with alpha=0.050000, mean=0.799738
+trying combination:
+root
+	"C1"=0.250000 "C2"=8.000000 
+[0.798449,0.803541] with alpha=0.050000, mean=0.800995
+trying combination:
+root
+	"C1"=0.250000 "C2"=16.000000 
+[0.798957,0.804257] with alpha=0.050000, mean=0.801607
+trying combination:
+root
+	"C1"=0.250000 "C2"=32.000000 
+[0.796295,0.800770] with alpha=0.050000, mean=0.798533
+trying combination:
+root
+	"C1"=0.250000 "C2"=64.000000 
+[0.797081,0.802243] with alpha=0.050000, mean=0.799662
+trying combination:
+root
+	"C1"=0.250000 "C2"=128.000000 
+[0.798269,0.802779] with alpha=0.050000, mean=0.800524
+trying combination:
+root
+	"C1"=0.250000 "C2"=256.000000 
+[0.796303,0.801344] with alpha=0.050000, mean=0.798823
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.003906 
+[0.847618,0.851018] with alpha=0.050000, mean=0.849318
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.007812 
+[0.839898,0.843743] with alpha=0.050000, mean=0.841820
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.015625 
+[0.836990,0.840740] with alpha=0.050000, mean=0.838865
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.031250 
+[0.830377,0.834014] with alpha=0.050000, mean=0.832196
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.062500 
+[0.817407,0.822116] with alpha=0.050000, mean=0.819762
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.125000 
+[0.797178,0.802603] with alpha=0.050000, mean=0.799891
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.250000 
+[0.799132,0.803169] with alpha=0.050000, mean=0.801151
+trying combination:
+root
+	"C1"=0.500000 "C2"=0.500000 
+[0.797581,0.802201] with alpha=0.050000, mean=0.799891
+trying combination:
+root
+	"C1"=0.500000 "C2"=1.000000 
+[0.798041,0.803198] with alpha=0.050000, mean=0.800619
+trying combination:
+root
+	"C1"=0.500000 "C2"=2.000000 
+[0.796047,0.800468] with alpha=0.050000, mean=0.798257
+trying combination:
+root
+	"C1"=0.500000 "C2"=4.000000 
+[0.796066,0.800767] with alpha=0.050000, mean=0.798416
+trying combination:
+root
+	"C1"=0.500000 "C2"=8.000000 
+[0.797759,0.802478] with alpha=0.050000, mean=0.800118
+trying combination:
+root
+	"C1"=0.500000 "C2"=16.000000 
+[0.799313,0.803861] with alpha=0.050000, mean=0.801587
+trying combination:
+root
+	"C1"=0.500000 "C2"=32.000000 
+[0.795322,0.800931] with alpha=0.050000, mean=0.798126
+trying combination:
+root
+	"C1"=0.500000 "C2"=64.000000 
+[0.799458,0.803341] with alpha=0.050000, mean=0.801400
+trying combination:
+root
+	"C1"=0.500000 "C2"=128.000000 
+[0.797808,0.802642] with alpha=0.050000, mean=0.800225
+trying combination:
+root
+	"C1"=0.500000 "C2"=256.000000 
+[0.796765,0.801911] with alpha=0.050000, mean=0.799338
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.003906 
+[0.848221,0.852111] with alpha=0.050000, mean=0.850166
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.007812 
+[0.840264,0.843722] with alpha=0.050000, mean=0.841993
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.015625 
+[0.835154,0.838499] with alpha=0.050000, mean=0.836826
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.031250 
+[0.827860,0.831683] with alpha=0.050000, mean=0.829771
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.062500 
+[0.819644,0.824367] with alpha=0.050000, mean=0.822006
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.125000 
+[0.798222,0.802617] with alpha=0.050000, mean=0.800419
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.250000 
+[0.797479,0.802185] with alpha=0.050000, mean=0.799832
+trying combination:
+root
+	"C1"=1.000000 "C2"=0.500000 
+[0.796743,0.801545] with alpha=0.050000, mean=0.799144
+trying combination:
+root
+	"C1"=1.000000 "C2"=1.000000 
+[0.798910,0.803210] with alpha=0.050000, mean=0.801060
+trying combination:
+root
+	"C1"=1.000000 "C2"=2.000000 
+[0.797038,0.802472] with alpha=0.050000, mean=0.799755
+trying combination:
+root
+	"C1"=1.000000 "C2"=4.000000 
+[0.796900,0.801582] with alpha=0.050000, mean=0.799241
+trying combination:
+root
+	"C1"=1.000000 "C2"=8.000000 
+[0.798605,0.803452] with alpha=0.050000, mean=0.801028
+trying combination:
+root
+	"C1"=1.000000 "C2"=16.000000 
+[0.798398,0.802927] with alpha=0.050000, mean=0.800663
+trying combination:
+root
+	"C1"=1.000000 "C2"=32.000000 
+[0.797207,0.802762] with alpha=0.050000, mean=0.799984
+trying combination:
+root
+	"C1"=1.000000 "C2"=64.000000 
+[0.799672,0.803941] with alpha=0.050000, mean=0.801806
+trying combination:
+root
+	"C1"=1.000000 "C2"=128.000000 
+[0.796850,0.802237] with alpha=0.050000, mean=0.799543
+trying combination:
+root
+	"C1"=1.000000 "C2"=256.000000 
+[0.798171,0.803266] with alpha=0.050000, mean=0.800719
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.003906 
+[0.848573,0.852609] with alpha=0.050000, mean=0.850591
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.007812 
+[0.840780,0.844014] with alpha=0.050000, mean=0.842397
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.015625 
+[0.836325,0.839005] with alpha=0.050000, mean=0.837665
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.031250 
+[0.826583,0.830409] with alpha=0.050000, mean=0.828496
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.062500 
+[0.822761,0.827426] with alpha=0.050000, mean=0.825094
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.125000 
+[0.797624,0.801678] with alpha=0.050000, mean=0.799651
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.250000 
+[0.799495,0.804010] with alpha=0.050000, mean=0.801752
+trying combination:
+root
+	"C1"=2.000000 "C2"=0.500000 
+[0.797333,0.801805] with alpha=0.050000, mean=0.799569
+trying combination:
+root
+	"C1"=2.000000 "C2"=1.000000 
+[0.796831,0.801739] with alpha=0.050000, mean=0.799285
+trying combination:
+root
+	"C1"=2.000000 "C2"=2.000000 
+[0.797835,0.802886] with alpha=0.050000, mean=0.800360
+trying combination:
+root
+	"C1"=2.000000 "C2"=4.000000 
+[0.798112,0.803516] with alpha=0.050000, mean=0.800814
+trying combination:
+root
+	"C1"=2.000000 "C2"=8.000000 
+[0.799843,0.804443] with alpha=0.050000, mean=0.802143
+trying combination:
+root
+	"C1"=2.000000 "C2"=16.000000 
+[0.797305,0.801925] with alpha=0.050000, mean=0.799615
+trying combination:
+root
+	"C1"=2.000000 "C2"=32.000000 
+[0.797216,0.801228] with alpha=0.050000, mean=0.799222
+trying combination:
+root
+	"C1"=2.000000 "C2"=64.000000 
+[0.797814,0.803128] with alpha=0.050000, mean=0.800471
+trying combination:
+root
+	"C1"=2.000000 "C2"=128.000000 
+[0.797146,0.801406] with alpha=0.050000, mean=0.799276
+trying combination:
+root
+	"C1"=2.000000 "C2"=256.000000 
+[0.794567,0.799417] with alpha=0.050000, mean=0.796992
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.003906 
+[0.849028,0.852321] with alpha=0.050000, mean=0.850675
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.007812 
+[0.841276,0.844214] with alpha=0.050000, mean=0.842745
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.015625 
+[0.836365,0.840075] with alpha=0.050000, mean=0.838220
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.031250 
+[0.830281,0.833736] with alpha=0.050000, mean=0.832008
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.062500 
+[0.820620,0.825033] with alpha=0.050000, mean=0.822827
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.125000 
+[0.796853,0.802103] with alpha=0.050000, mean=0.799478
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.250000 
+[0.797936,0.802588] with alpha=0.050000, mean=0.800262
+trying combination:
+root
+	"C1"=4.000000 "C2"=0.500000 
+[0.797767,0.802508] with alpha=0.050000, mean=0.800138
+trying combination:
+root
+	"C1"=4.000000 "C2"=1.000000 
+[0.798547,0.802968] with alpha=0.050000, mean=0.800757
+trying combination:
+root
+	"C1"=4.000000 "C2"=2.000000 
+[0.797383,0.802280] with alpha=0.050000, mean=0.799832
+trying combination:
+root
+	"C1"=4.000000 "C2"=4.000000 
+[0.798671,0.803691] with alpha=0.050000, mean=0.801181
+trying combination:
+root
+	"C1"=4.000000 "C2"=8.000000 
+[0.796474,0.801413] with alpha=0.050000, mean=0.798944
+trying combination:
+root
+	"C1"=4.000000 "C2"=16.000000 
+[0.796567,0.801612] with alpha=0.050000, mean=0.799090
+trying combination:
+root
+	"C1"=4.000000 "C2"=32.000000 
+[0.798135,0.802330] with alpha=0.050000, mean=0.800233
+trying combination:
+root
+	"C1"=4.000000 "C2"=64.000000 
+[0.796546,0.801075] with alpha=0.050000, mean=0.798810
+trying combination:
+root
+	"C1"=4.000000 "C2"=128.000000 
+[0.795894,0.801176] with alpha=0.050000, mean=0.798535
+trying combination:
+root
+	"C1"=4.000000 "C2"=256.000000 
+[0.796908,0.801596] with alpha=0.050000, mean=0.799252
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.003906 
+[0.846821,0.850219] with alpha=0.050000, mean=0.848520
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.007812 
+[0.839823,0.843283] with alpha=0.050000, mean=0.841553
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.015625 
+[0.835206,0.838850] with alpha=0.050000, mean=0.837028
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.031250 
+[0.829550,0.833182] with alpha=0.050000, mean=0.831366
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.062500 
+[0.819322,0.824021] with alpha=0.050000, mean=0.821671
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.125000 
+[0.797332,0.801826] with alpha=0.050000, mean=0.799579
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.250000 
+[0.795271,0.800470] with alpha=0.050000, mean=0.797871
+trying combination:
+root
+	"C1"=8.000000 "C2"=0.500000 
+[0.797699,0.802424] with alpha=0.050000, mean=0.800062
+trying combination:
+root
+	"C1"=8.000000 "C2"=1.000000 
+[0.798763,0.803994] with alpha=0.050000, mean=0.801378
+trying combination:
+root
+	"C1"=8.000000 "C2"=2.000000 
+[0.797967,0.802792] with alpha=0.050000, mean=0.800380
+trying combination:
+root
+	"C1"=8.000000 "C2"=4.000000 
+[0.800221,0.804508] with alpha=0.050000, mean=0.802364
+trying combination:
+root
+	"C1"=8.000000 "C2"=8.000000 
+[0.798813,0.803593] with alpha=0.050000, mean=0.801203
+trying combination:
+root
+	"C1"=8.000000 "C2"=16.000000 
+[0.796490,0.801327] with alpha=0.050000, mean=0.798909
+trying combination:
+root
+	"C1"=8.000000 "C2"=32.000000 
+[0.797025,0.802277] with alpha=0.050000, mean=0.799651
+trying combination:
+root
+	"C1"=8.000000 "C2"=64.000000 
+[0.798329,0.803849] with alpha=0.050000, mean=0.801089
+trying combination:
+root
+	"C1"=8.000000 "C2"=128.000000 
+[0.796920,0.800996] with alpha=0.050000, mean=0.798958
+trying combination:
+root
+	"C1"=8.000000 "C2"=256.000000 
+[0.797181,0.801482] with alpha=0.050000, mean=0.799331
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.003906 
+[0.847091,0.850163] with alpha=0.050000, mean=0.848627
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.007812 
+[0.839435,0.843227] with alpha=0.050000, mean=0.841331
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.015625 
+[0.835882,0.839727] with alpha=0.050000, mean=0.837805
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.031250 
+[0.831628,0.835704] with alpha=0.050000, mean=0.833666
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.062500 
+[0.817350,0.822377] with alpha=0.050000, mean=0.819863
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.125000 
+[0.797014,0.801652] with alpha=0.050000, mean=0.799333
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.250000 
+[0.798365,0.802471] with alpha=0.050000, mean=0.800418
+trying combination:
+root
+	"C1"=16.000000 "C2"=0.500000 
+[0.798755,0.803446] with alpha=0.050000, mean=0.801101
+trying combination:
+root
+	"C1"=16.000000 "C2"=1.000000 
+[0.798073,0.803752] with alpha=0.050000, mean=0.800912
+trying combination:
+root
+	"C1"=16.000000 "C2"=2.000000 
+[0.796611,0.801056] with alpha=0.050000, mean=0.798833
+trying combination:
+root
+	"C1"=16.000000 "C2"=4.000000 
+[0.797502,0.802631] with alpha=0.050000, mean=0.800066
+trying combination:
+root
+	"C1"=16.000000 "C2"=8.000000 
+[0.799112,0.803696] with alpha=0.050000, mean=0.801404
+trying combination:
+root
+	"C1"=16.000000 "C2"=16.000000 
+[0.797448,0.802223] with alpha=0.050000, mean=0.799835
+trying combination:
+root
+	"C1"=16.000000 "C2"=32.000000 
+[0.796821,0.801032] with alpha=0.050000, mean=0.798926
+trying combination:
+root
+	"C1"=16.000000 "C2"=64.000000 
+[0.799080,0.804454] with alpha=0.050000, mean=0.801767
+trying combination:
+root
+	"C1"=16.000000 "C2"=128.000000 
+[0.798490,0.802321] with alpha=0.050000, mean=0.800405
+trying combination:
+root
+	"C1"=16.000000 "C2"=256.000000 
+[0.799317,0.803720] with alpha=0.050000, mean=0.801518
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.003906 
+[0.848010,0.851578] with alpha=0.050000, mean=0.849794
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.007812 
+[0.841142,0.844591] with alpha=0.050000, mean=0.842866
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.015625 
+[0.837073,0.840720] with alpha=0.050000, mean=0.838897
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.031250 
+[0.828284,0.832511] with alpha=0.050000, mean=0.830398
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.062500 
+[0.819318,0.823941] with alpha=0.050000, mean=0.821629
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.125000 
+[0.797596,0.803045] with alpha=0.050000, mean=0.800321
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.250000 
+[0.800119,0.804140] with alpha=0.050000, mean=0.802129
+trying combination:
+root
+	"C1"=32.000000 "C2"=0.500000 
+[0.797806,0.802984] with alpha=0.050000, mean=0.800395
+trying combination:
+root
+	"C1"=32.000000 "C2"=1.000000 
+[0.796900,0.801986] with alpha=0.050000, mean=0.799443
+trying combination:
+root
+	"C1"=32.000000 "C2"=2.000000 
+[0.798147,0.802645] with alpha=0.050000, mean=0.800396
+trying combination:
+root
+	"C1"=32.000000 "C2"=4.000000 
+[0.799449,0.804089] with alpha=0.050000, mean=0.801769
+trying combination:
+root
+	"C1"=32.000000 "C2"=8.000000 
+[0.797524,0.802231] with alpha=0.050000, mean=0.799878
+trying combination:
+root
+	"C1"=32.000000 "C2"=16.000000 
+[0.797226,0.802098] with alpha=0.050000, mean=0.799662
+trying combination:
+root
+	"C1"=32.000000 "C2"=32.000000 
+[0.798063,0.802786] with alpha=0.050000, mean=0.800424
+trying combination:
+root
+	"C1"=32.000000 "C2"=64.000000 
+[0.797543,0.802172] with alpha=0.050000, mean=0.799858
+trying combination:
+root
+	"C1"=32.000000 "C2"=128.000000 
+[0.795322,0.800428] with alpha=0.050000, mean=0.797875
+trying combination:
+root
+	"C1"=32.000000 "C2"=256.000000 
+[0.797564,0.802417] with alpha=0.050000, mean=0.799990
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.003906 
+[0.847877,0.850710] with alpha=0.050000, mean=0.849294
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.007812 
+[0.840496,0.843865] with alpha=0.050000, mean=0.842181
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.015625 
+[0.836701,0.840243] with alpha=0.050000, mean=0.838472
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.031250 
+[0.829096,0.833461] with alpha=0.050000, mean=0.831279
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.062500 
+[0.818678,0.823955] with alpha=0.050000, mean=0.821316
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.125000 
+[0.797800,0.801789] with alpha=0.050000, mean=0.799794
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.250000 
+[0.797965,0.803482] with alpha=0.050000, mean=0.800723
+trying combination:
+root
+	"C1"=64.000000 "C2"=0.500000 
+[0.795815,0.800730] with alpha=0.050000, mean=0.798272
+trying combination:
+root
+	"C1"=64.000000 "C2"=1.000000 
+[0.798088,0.802575] with alpha=0.050000, mean=0.800331
+trying combination:
+root
+	"C1"=64.000000 "C2"=2.000000 
+[0.797276,0.802586] with alpha=0.050000, mean=0.799931
+trying combination:
+root
+	"C1"=64.000000 "C2"=4.000000 
+[0.799225,0.803678] with alpha=0.050000, mean=0.801451
+trying combination:
+root
+	"C1"=64.000000 "C2"=8.000000 
+[0.797459,0.801586] with alpha=0.050000, mean=0.799523
+trying combination:
+root
+	"C1"=64.000000 "C2"=16.000000 
+[0.798869,0.803602] with alpha=0.050000, mean=0.801235
+trying combination:
+root
+	"C1"=64.000000 "C2"=32.000000 
+[0.797693,0.802420] with alpha=0.050000, mean=0.800057
+trying combination:
+root
+	"C1"=64.000000 "C2"=64.000000 
+[0.797320,0.801228] with alpha=0.050000, mean=0.799274
+trying combination:
+root
+	"C1"=64.000000 "C2"=128.000000 
+[0.798139,0.802444] with alpha=0.050000, mean=0.800291
+trying combination:
+root
+	"C1"=64.000000 "C2"=256.000000 
+[0.796938,0.801183] with alpha=0.050000, mean=0.799060
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.003906 
+[0.848976,0.851797] with alpha=0.050000, mean=0.850387
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.007812 
+[0.841504,0.844669] with alpha=0.050000, mean=0.843086
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.015625 
+[0.836952,0.840104] with alpha=0.050000, mean=0.838528
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.031250 
+[0.829991,0.833716] with alpha=0.050000, mean=0.831853
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.062500 
+[0.818230,0.822194] with alpha=0.050000, mean=0.820212
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.125000 
+[0.798760,0.804063] with alpha=0.050000, mean=0.801412
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.250000 
+[0.797693,0.802534] with alpha=0.050000, mean=0.800113
+trying combination:
+root
+	"C1"=128.000000 "C2"=0.500000 
+[0.795772,0.800386] with alpha=0.050000, mean=0.798079
+trying combination:
+root
+	"C1"=128.000000 "C2"=1.000000 
+[0.798261,0.803565] with alpha=0.050000, mean=0.800913
+trying combination:
+root
+	"C1"=128.000000 "C2"=2.000000 
+[0.798564,0.802557] with alpha=0.050000, mean=0.800561
+trying combination:
+root
+	"C1"=128.000000 "C2"=4.000000 
+[0.799339,0.803659] with alpha=0.050000, mean=0.801499
+trying combination:
+root
+	"C1"=128.000000 "C2"=8.000000 
+[0.796548,0.800703] with alpha=0.050000, mean=0.798625
+trying combination:
+root
+	"C1"=128.000000 "C2"=16.000000 
+[0.797262,0.801226] with alpha=0.050000, mean=0.799244
+trying combination:
+root
+	"C1"=128.000000 "C2"=32.000000 
+[0.798612,0.803153] with alpha=0.050000, mean=0.800882
+trying combination:
+root
+	"C1"=128.000000 "C2"=64.000000 
+[0.797575,0.802869] with alpha=0.050000, mean=0.800222
+trying combination:
+root
+	"C1"=128.000000 "C2"=128.000000 
+[0.798703,0.802375] with alpha=0.050000, mean=0.800539
+trying combination:
+root
+	"C1"=128.000000 "C2"=256.000000 
+[0.798658,0.803590] with alpha=0.050000, mean=0.801124
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.003906 
+[0.850030,0.853620] with alpha=0.050000, mean=0.851825
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.007812 
+[0.840088,0.843510] with alpha=0.050000, mean=0.841799
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.015625 
+[0.836691,0.840536] with alpha=0.050000, mean=0.838614
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.031250 
+[0.829534,0.833879] with alpha=0.050000, mean=0.831707
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.062500 
+[0.820241,0.824802] with alpha=0.050000, mean=0.822521
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.125000 
+[0.799702,0.804099] with alpha=0.050000, mean=0.801900
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.250000 
+[0.797952,0.802657] with alpha=0.050000, mean=0.800305
+trying combination:
+root
+	"C1"=256.000000 "C2"=0.500000 
+[0.798777,0.804249] with alpha=0.050000, mean=0.801513
+trying combination:
+root
+	"C1"=256.000000 "C2"=1.000000 
+[0.797490,0.802654] with alpha=0.050000, mean=0.800072
+trying combination:
+root
+	"C1"=256.000000 "C2"=2.000000 
+[0.798494,0.803066] with alpha=0.050000, mean=0.800780
+trying combination:
+root
+	"C1"=256.000000 "C2"=4.000000 
+[0.796961,0.802086] with alpha=0.050000, mean=0.799524
+trying combination:
+root
+	"C1"=256.000000 "C2"=8.000000 
+[0.795574,0.800390] with alpha=0.050000, mean=0.797982
+trying combination:
+root
+	"C1"=256.000000 "C2"=16.000000 
+[0.796899,0.801904] with alpha=0.050000, mean=0.799401
+trying combination:
+root
+	"C1"=256.000000 "C2"=32.000000 
+[0.796676,0.800922] with alpha=0.050000, mean=0.798799
+trying combination:
+root
+	"C1"=256.000000 "C2"=64.000000 
+[0.796391,0.801360] with alpha=0.050000, mean=0.798875
+trying combination:
+root
+	"C1"=256.000000 "C2"=128.000000 
+[0.797493,0.802432] with alpha=0.050000, mean=0.799963
+trying combination:
+root
+	"C1"=256.000000 "C2"=256.000000 
+[0.799366,0.804496] with alpha=0.050000, mean=0.801931
+Best:
+root
+	"C1"=256.000000 "C2"=0.003906 
+mean-weights= [ 0.06831687  0.75799278  0.38549148  0.48414342  0.19357713]
+variance-weights= [  4.91084937e-06   3.52549563e-05   7.99600334e-05   4.67287736e-05
+   1.42666710e-04]
+std-weights= [ 0.00221604  0.00593759  0.00894204  0.00683584  0.01194432]

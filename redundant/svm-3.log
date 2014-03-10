@@ -1,0 +1,13 @@
+Best:
+root
+    "C1"=8.000000 "C2"=0.000977 
+    results= accuracy 0.915399694014
+    results= error_rate 0.0840038726334
+    results= bal 0.0853247193186
+    results= wracc 0.830991095625
+    results= f1 0.913542780421
+    results= cross_correlation 0.837262495543
+    results= recall 0.874298296554
+    results= precision 0.952459265303
+    results= specificity 0.958018776616
+

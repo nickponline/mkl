@@ -1,0 +1,11 @@
+name=MKL
+data=data/xue/tdp.1.pkl
+data=data/xue/tdp.2.pkl
+data=data/xue/tdp.3.pkl
+data=data/xue/tdp.4.pkl
+data=data/xue/tdp.5.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=10
+runs=5

@@ -1,0 +1,30 @@
+name=SVM
+data=data/iri2/2_all.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=12
+runs=10
+Comments: Irina 2 data set all subsets, vstacked subsets
+ X = (419916, 1000) y = (1000,) Sparsity = 0.00470810828832
+feature-reduction ... 1
+classifier-type ... skl
+
+Optimizing with bfgs
+Args => 500.00000 500.00000 Obj => 0.8004
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 
+
+Immediately return to matlab prompt / Prematurely finish computations / Do nothing (I/P/D)? 

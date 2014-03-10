@@ -1,0 +1,7 @@
+name=SVM
+data=data/convex/convex.500.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=12
+runs=15

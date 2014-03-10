@@ -1,0 +1,13 @@
+NAME=MKL
+RUNS=2
+FOLDS=3
+PARAMETERS=5
+PARAM_BOUND=10
+FEATURES=1
+KERNEL=GaussianKernel
+OPTIMIZER=SurrogateSearch
+DATA=data/xue/tdp.1.pkl
+DATA=data/xue/tdp.2.pkl
+DATA=data/xue/tdp.3.pkl
+DATA=data/xue/tdp.4.pkl
+DATA=data/xue/tdp.5.pkl

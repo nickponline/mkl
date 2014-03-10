@@ -1,0 +1,5 @@
+Gauss-Stockwell
+SCiPy Optim Routines
+CMA-ES
+GP Global Optimzation
+Surrote Reponse Surface

@@ -1,0 +1,9 @@
+NAME=SKL
+RUNS=5
+FOLDS=10
+PARAM_BOUND=10
+PARAMETERS=1
+FEATURES=1
+KERNEL=GaussianKernel
+OPTIMIZER=GridSearch
+DATA=data/irifixed/3_goip.pkl

@@ -1,0 +1,31 @@
+\documentclass[11pt]{report}
+
+\begin{document}
+\begin{table}
+    \centering
+    \begin{tabular}{lrrrr}
+    \hline
+    {% for col in head %}
+        \textbf{ {{col}} }
+        {% if not forloop.last %}
+           &
+        {% endif %}
+    {% endfor %} 
+    \\
+    \hline
+    {% for row in table %}
+        {% for cell in row %}
+            {{cell}}
+            {% if not forloop.last %} 
+               &
+            {% endif %}
+        {% endfor %}
+        \\
+    {% endfor %}
+    \hline
+    \end{tabular}
+    \caption{ {{table_heading}} }
+    \label{tab:phonebook}
+\end{table}
+
+\end{document}

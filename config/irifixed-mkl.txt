@@ -1,0 +1,12 @@
+NAME=MKL
+RUNS=5
+FOLDS=10
+PARAM_BOUND=10
+PARAMETERS=4
+FEATURES=1
+KERNEL=GaussianKernel
+OPTIMIZER=BFGS
+DATA=data/irifixed/3_go_bp.pkl
+DATA=data/irifixed/3_go_cc.pkl
+DATA=data/irifixed/3_go_mf.pkl
+DATA=data/irifixed/3_ip.pkl

@@ -1,0 +1,11 @@
+name=MKL
+data=data/xue/hia.1.pkl
+data=data/xue/hia.2.pkl
+data=data/xue/hia.3.pkl
+data=data/xue/hia.4.pkl
+data=data/xue/hia.5.pkl
+parameter-selection=grid
+feature-reduction=1
+parameter-bound=10
+folds=10
+runs=10

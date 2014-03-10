@@ -1,0 +1,266 @@
+-rw-r--r--  1 nickp  staff      1171 27 Sep 17:30 animate.py
+-rw-r--r--  1 nickp  staff     43331  4 Sep 00:18 barecmaes2.py
+-rw-r--r--  1 nickp  staff     38708 27 Sep 16:35 barecmaes2.pyc
+-rw-r--r--  1 nickp  staff         0  8 Nov 17:09 classifier.object
+-rw-r--r--  1 nickp  staff      4491 12 Sep 10:33 cma.m
+-rw-r--r--  1 nickp  staff    267627  4 Sep 00:15 cma.py
+-rw-r--r--  1 nickp  staff    207841  9 Nov 00:18 cma.pyc
+-rw-r--r--  1 nickp  staff      1364 12 Sep 10:33 cmaes.py
+-rw-r--r--  1 nickp  staff       349 14 Dec 13:00 compare-sobol.py
+-rw-r--r--  1 nickp  staff       232 20 Nov 04:39 config-hia.txt
+-rw-r--r--  1 nickp  staff      1201 20 Nov 03:50 config-hia.txt.result
+-rw-r--r--  1 nickp  staff      1394  7 Aug 18:57 convert-iri.py
+-rw-r--r--  1 nickp  staff       294  6 Nov 22:41 convolver.py
+-rw-r--r--  1 nickp  staff       724  2 Nov 01:48 data_splitter.py
+-rw-r--r--  1 nickp  staff       143  9 Oct 01:33 dump.py
+-rw-r--r--  1 nickp  staff      1004  5 Jul 20:10 features.py
+-rw-r--r--  1 nickp  staff      1873  2 Jul 23:32 fix.py
+-rw-r--r--  1 nickp  staff      1334  7 Aug 22:49 generate_table.py
+-rw-r--r--  1 nickp  staff      1058  8 Oct 19:48 gpr.py
+-rw-r--r--  1 nickp  staff    430162 21 Nov 02:07 gps-good.pdf
+-rw-r--r--  1 nickp  staff    432794 21 Nov 02:34 gps.pdf
+-rw-r--r--  1 nickp  staff    109644 21 Nov 02:19 gps2d-good.pdf
+-rw-r--r--  1 nickp  staff    262399 21 Nov 02:24 gps2d.pdf
+-rw-r--r--  1 nickp  staff     32006 14 Dec 08:54 grid.pkl
+-rw-r--r--  1 nickp  staff      6116 25 Sep 19:18 helper.py
+-rw-r--r--  1 nickp  staff       634 25 Sep 19:48 helper2.py
+-rw-r--r--  1 nickp  staff      6482  9 Jul 21:44 irimklms-500.py
+-rw-r--r--  1 nickp  staff      6578  4 Sep 00:27 irimklms.py
+-rw-r--r--  1 nickp  staff      5921 23 Jun 20:27 irisvmms-500.py
+-rw-r--r--  1 nickp  staff      5935  6 Jun  2012 irisvmms.py
+-rw-r--r--  1 nickp  staff       751 11 Sep 18:18 iterate.dat
+-rw-r--r--  1 nickp  staff      3661 10 Apr  2012 kernel.py
+-rw-rw-rw-  1 nickp  staff     21483 14 Dec 16:16 kernel_learning.py
+-rw-r--r--  1 nickp  staff     22568 14 Dec 16:16 kernel_learning.pyc
+-rw-r--r--  1 nickp  staff     14918  8 Nov 23:49 kernel_learning2.py
+-rw-r--r--  1 nickp  staff       785 13 Apr  2012 load.py
+-rw-rw-rw-@ 1 nickp  staff     13659  7 Dec 21:17 main.py
+-rw-r--r--  1 nickp  staff      7756  8 Nov 23:49 main2.py
+-rw-r--r--  1 nickp  staff      4696 18 Aug 22:52 mkl.py
+-rw-r--r--  1 nickp  staff      5470 18 Aug 22:53 mklms.py
+-rw-r--r--  1 nickp  staff  16168813 14 Jan  2010 mnist.pkl.gz
+-rw-r--r--@ 1 nickp  staff      3593 10 Apr  2012 model.py
+-rw-r--r--  1 nickp  staff        67  7 Aug 19:21 names.csv
+-rw-r--r--  1 nickp  staff       344  6 Nov 18:15 normalizer.py
+-rw-r--r--  1 nickp  staff        48 28 Sep 03:12 octave-core
+-rw-r--r--  1 nickp  staff      1640 20 Nov 03:07 outcmaesaxlen.dat
+-rw-r--r--  1 nickp  staff      1224 20 Nov 03:07 outcmaesfit.dat
+-rw-r--r--  1 nickp  staff      1438 20 Nov 03:07 outcmaesstddev.dat
+-rw-r--r--  1 nickp  staff      1335 20 Nov 03:07 outcmaesxmean.dat
+-rw-r--r--  1 nickp  staff      1461 20 Nov 03:07 outcmaesxrecentbest.dat
+-rw-r--r--  1 nickp  staff      4902 10 Apr  2012 pipe.py
+-rw-r--r--  1 nickp  staff       446  9 Oct 14:12 plotter.py
+-rwxr-xr-x@ 1 nickp  staff        74 19 Nov 17:03 push.sh
+-rw-r--r--  1 nickp  staff      3075 20 Nov 17:00 regression_gaussian_process_demo.py
+-rw-r--r--  1 nickp  staff       301 30 Aug 18:48 remote.py
+-rw-r--r--  1 nickp  staff       826 18 Aug 23:35 results.py
+-rw-r--r--  1 nickp  staff    126976 29 Aug 02:29 results.shelve
+-rw-r--r--  1 nickp  staff       948 29 Aug 15:44 rfe.py
+-rw-r--r--  1 nickp  staff      1513 10 Apr  2012 roc.py
+-rw-r--r--  1 nickp  staff       162 12 Aug 03:31 rosenbrock.m
+-rwxr-xr-x@ 1 nickp  staff       266  7 Jun  2012 run-all.sh
+-rwxr-xr-x@ 1 nickp  staff       126 19 Apr  2012 run.sh
+-rwxr-xr-x@ 1 nickp  staff       240 24 Jun 03:45 runall.sh
+-rw-r--r--  1 nickp  staff       678 28 Aug 16:37 runsetup.py
+-rw-r--r--  1 nickp  staff       994  9 Nov 00:18 runsetup.pyc
+-rwxr-xr-x@ 1 nickp  staff        78 12 Oct 00:55 save.sh
+-rw-r--r--  1 nickp  staff      2558 10 Jul 14:58 shogun_test.py
+-rw-r--r--  1 nickp  staff      1014 29 Aug 15:02 sktest.py
+-rw-r--r--  1 nickp  staff     13005 14 Dec 12:53 sobol.py
+-rw-r--r--  1 nickp  staff     12331 14 Dec 12:53 sobol.pyc
+-rw-r--r--  1 nickp  staff        71  8 Nov 17:45 sorter.py
+-rw-r--r--  1 nickp  staff      2312  7 Dec 07:49 southwell.py
+-rw-r--r--  1 nickp  staff      2534  7 Dec 17:15 southwell.pyc
+-rw-r--r--  1 nickp  staff       762  9 Jul 15:34 sparse_test (1).py
+-rw-r--r--  1 nickp  staff       811  9 Jul 20:46 sparse_test.py
+-rw-r--r--  1 nickp  staff       533  2 Nov 04:39 split_xue.py
+-rw-r--r--  1 nickp  staff      3831 29 Aug 02:05 storage.py
+-rw-r--r--  1 nickp  staff      4151 13 Apr  2012 svm.py
+-rw-r--r--  1 nickp  staff      2029  9 Oct 18:12 svmexample.py
+-rw-r--r--  1 nickp  staff      4819 10 Apr  2012 svmms.py
+-rw-r--r--  1 nickp  staff      5040 14 Dec 16:16 test.mat
+-rw-r--r--  1 nickp  staff     17821 14 Dec 16:15 thesis.py
+-rw-r--r--  1 nickp  staff     32527  9 Jul 20:59 unamed.png
+-rw-------  1 nickp  staff      2356 10 Apr  2012 util.py
+-rw-------  1 nickp  staff       806 28 Apr  2012 vis.py
+-rw-r--r--  1 nickp  staff      8795  9 Jul 20:56 xue_sparse.py
+-rw-r--r--  1 nickp  staff      6983  9 Jul 20:50 xue_svm.py
+
+build:
+total 8
+-rw-r--r--  1 nickp  staff  185 12 Nov 20:50 pip-delete-this-directory.txt
+
+config:
+total 264
+-rw-rw-rw-  1 nickp  staff   132 12 Dec 15:09 1
+-rw-r--r--  1 nickp  staff  2223  8 Dec 03:33 1.result
+-rw-r--r--  1 nickp  staff   138 12 Dec 15:09 1.txt
+-rw-rw-rw-  1 nickp  staff   138  7 Dec 21:47 2
+-rw-r--r--  1 nickp  staff  2249  7 Dec 23:30 2.result
+-rw-rw-rw-  1 nickp  staff   139  7 Dec 21:47 3
+-rw-rw-rw-  1 nickp  staff  2597  7 Dec 22:54 3.result
+-rw-rw-rw-  1 nickp  staff   135  7 Dec 21:47 4
+-rw-rw-rw-  1 nickp  staff  2414  7 Dec 23:06 4.result
+-rw-r--r--  1 nickp  staff   526 13 Dec 12:53 bigmoons.txt
+-rw-r--r--  1 nickp  staff   637 13 Dec 10:44 bigmoons.txt.result
+-rw-r--r--  1 nickp  staff   222 13 Dec 12:50 config-hia.txt
+-rw-r--r--  1 nickp  staff   406 21 Nov 01:40 config-hia.txt.result
+-rw-r--r--  1 nickp  staff   162 14 Dec 16:15 generate.txt
+-rw-r--r--  1 nickp  staff   899 14 Dec 16:16 generate.txt.grid
+-rw-r--r--  1 nickp  staff   732 14 Dec 16:17 generate.txt.result
+-rw-r--r--  1 nickp  staff   229 14 Dec 12:37 hia.txt
+-rw-r--r--  1 nickp  staff     6 14 Dec 12:56 hia.txt.grid
+-rw-r--r--  1 nickp  staff  1207 14 Dec 12:57 hia.txt.result
+-rw-rw-rw-  1 nickp  staff   222 13 Dec 11:30 irifixed-mkl.txt
+-rw-r--r--  1 nickp  staff  2519  8 Dec 03:31 irifixed-mkl.txt.result
+-rw-rw-rw-  1 nickp  staff   137  7 Dec 21:18 irifixed.txt
+-rw-r--r--  1 nickp  staff  2193  8 Dec 02:49 irifixed.txt.result
+-rw-r--r--  1 nickp  staff   185 13 Dec 12:53 moons.txt
+-rw-r--r--  1 nickp  staff   540 13 Dec 11:09 moons.txt.result
+-rw-r--r--  1 nickp  staff   229 14 Dec 12:41 pgp.txt
+-rw-r--r--  1 nickp  staff     6 14 Dec 12:57 pgp.txt.grid
+-rw-r--r--  1 nickp  staff  1167 14 Dec 12:58 pgp.txt.result
+-rw-r--r--  1 nickp  staff   229 14 Dec 12:41 tdp.txt
+-rw-r--r--  1 nickp  staff     6 14 Dec 13:10 tdp.txt.grid
+-rw-r--r--  1 nickp  staff  1179 14 Dec 13:13 tdp.txt.result
+-rw-r--r--  1 nickp  staff   128 13 Dec 12:53 trivial.txt
+-rw-r--r--  1 nickp  staff   507 13 Dec 15:07 trivial.txt.result
+
+data:
+total 0
+drwxr-xr-x   5 nickp  staff   170  8 Nov 16:47 breast
+drwxr-xr-x   9 nickp  staff   306  9 Oct 22:06 convex
+drwxr-xr-x   5 nickp  staff   170 16 Nov 04:16 digits
+drwxr-xr-x   5 nickp  staff   170  8 Nov 16:37 ionosphere
+drwxr-xr-x  45 nickp  staff  1530  9 Oct 22:06 iri
+drwxrwxrwx  19 nickp  staff   646  7 Dec 23:30 irifixed
+drwxr-xr-x   5 nickp  staff   170  8 Nov 16:38 liver
+drwxr-xr-x   5 nickp  staff   170  8 Nov 16:56 magic
+drwxr-xr-x  24 nickp  staff   816 13 Dec 14:52 moons
+drwxr-xr-x   6 nickp  staff   204  8 Nov 16:41 pima
+drwxr-xr-x  25 nickp  staff   850 10 Nov 16:24 prover
+drwxr-xr-x   5 nickp  staff   170  8 Nov 16:43 sonar
+drwxr-xr-x   5 nickp  staff   170  8 Nov 16:55 spam
+drwxr-xr-x  31 nickp  staff  1054  2 Nov 04:44 xue
+
+optim:
+total 2568
+-rw-r--r--  1 nickp  staff   40369  4 Sep 00:12 __cma_doctest__.txt
+-rw-r--r--  1 nickp  staff   43329 28 Aug 16:31 barecmaes2.py
+-rw-r--r--  1 nickp  staff   43331  9 Mar  2012 barecmaes2.py.1
+-rw-r--r--  1 nickp  staff   38119 28 Aug 16:31 barecmaes2.pyc
+-rw-r--r--  1 nickp  staff    4077 28 Aug 17:33 bound_method_FitnessFunctions.rosen_of_cma.FitnessFunctions_object_at_0x108353810.pkl
+-rw-r--r--  1 nickp  staff    4079  4 Sep 00:12 bound_method_FitnessFunctions.rosen_of_cma.FitnessFunctions_object_at_0x38b7650.pkl
+-rw-r--r--  1 nickp  staff  267627 28 Aug 17:23 cma.py
+-rw-r--r--  1 nickp  staff  209262  4 Sep 00:11 cma.pyc
+-rw-r--r--  1 nickp  staff      90 28 Aug 17:18 methods.txt
+-rw-r--r--  1 nickp  staff  138846  4 Sep 00:13 outcmaesaxlen.dat
+-rw-r--r--  1 nickp  staff   72298  4 Sep 00:13 outcmaesfit.dat
+-rw-r--r--  1 nickp  staff  130037  4 Sep 00:13 outcmaesstddev.dat
+-rw-r--r--  1 nickp  staff  125894  4 Sep 00:13 outcmaesxmean.dat
+-rw-r--r--  1 nickp  staff  140921  4 Sep 00:13 outcmaesxrecentbest.dat
+-rw-r--r--  1 nickp  staff   31444  4 Sep 00:12 saved-cma-object.pkl
+
+output:
+total 240
+-rw-r--r--  1 nickp  staff    147 11 Aug 22:27 2MEGA.aux
+-rw-r--r--  1 nickp  staff   2984 11 Aug 22:27 2MEGA.log
+-rw-r--r--  1 nickp  staff  45861 11 Aug 22:27 2MEGA.pdf
+-rw-r--r--  1 nickp  staff   3939 11 Aug 21:59 2MEGA.tex
+-rw-r--r--  1 nickp  staff    147 11 Aug 22:27 3MEGA.aux
+-rw-r--r--  1 nickp  staff   2984 11 Aug 22:27 3MEGA.log
+-rw-r--r--  1 nickp  staff  45867 11 Aug 22:27 3MEGA.pdf
+-rw-r--r--  1 nickp  staff   3937 11 Aug 21:57 3MEGA.tex
+
+plots:
+total 360
+-rw-r--r--  1 nickp  staff  24016 13 Apr  2012 mkl.png
+-rw-r--r--  1 nickp  staff  33205 13 Apr  2012 svm-da.png
+-rw-r--r--  1 nickp  staff  24780 18 Apr  2012 svm-go.png
+-rw-r--r--  1 nickp  staff  30462 13 Apr  2012 svm-ia.png
+-rw-r--r--  1 nickp  staff  25118 13 Apr  2012 svm-ip.png
+-rw-r--r--  1 nickp  staff  31557 13 Apr  2012 svm-oa.png
+
+redundant:
+total 4408
+-rw-r--r--  1 nickp  staff    3132  8 Aug 12:42 D1.log
+-rw-r--r--  1 nickp  staff     128  7 Aug 23:55 MKLD1.aux
+-rw-r--r--  1 nickp  staff    3073  7 Aug 23:55 MKLD1.log
+-rw-r--r--  1 nickp  staff   44029  7 Aug 23:55 MKLD1.pdf
+-rw-r--r--  1 nickp  staff    3933  8 Aug 09:45 S10.tex
+-rw-r--r--  1 nickp  staff    3901  8 Aug 06:18 S6.tex
+-rw-r--r--  1 nickp  staff    3932  8 Aug 06:51 S7.tex
+-rw-r--r--  1 nickp  staff    3936  8 Aug 07:14 S8.tex
+-rw-r--r--  1 nickp  staff    3936  8 Aug 07:47 S9.tex
+-rw-r--r--  1 nickp  staff     128  7 Aug 23:55 SKLS1.aux
+-rw-r--r--  1 nickp  staff   43886  7 Aug 23:55 SKLS1.pdf
+-rw-r--r--  1 nickp  staff    3905  7 Aug 23:54 SKLS1.tex
+-rw-r--r--  1 nickp  staff     128  7 Aug 23:55 SKLS2.aux
+-rw-r--r--  1 nickp  staff    2983  7 Aug 23:55 SKLS2.log
+-rw-r--r--  1 nickp  staff   43885  7 Aug 23:55 SKLS2.pdf
+-rw-r--r--  1 nickp  staff     128  7 Aug 23:55 SKLS3.aux
+-rw-r--r--  1 nickp  staff    2983  7 Aug 23:55 SKLS3.log
+-rw-r--r--  1 nickp  staff   43885  7 Aug 23:55 SKLS3.pdf
+-rw-r--r--  1 nickp  staff     128  7 Aug 23:55 SKLS4.aux
+-rw-r--r--  1 nickp  staff    2983  7 Aug 23:55 SKLS4.log
+-rw-r--r--  1 nickp  staff   43884  7 Aug 23:55 SKLS4.pdf
+-rw-r--r--  1 nickp  staff     128  7 Aug 23:55 SKLS5.aux
+-rw-r--r--  1 nickp  staff    2983  7 Aug 23:55 SKLS5.log
+-rw-r--r--  1 nickp  staff     545  2 Nov 03:40 X1.p
+-rw-r--r--  1 nickp  staff     545  2 Nov 03:40 X2.p
+-rw-r--r--  1 nickp  staff    2876  2 Nov 03:40 XX.p
+-rw-r--r--  1 nickp  staff    2876  2 Nov 03:40 YY.p
+-rw-r--r--  1 nickp  staff    2980  2 Nov 03:40 ZZ.p
+-rw-r--r--  1 nickp  staff       0 13 Apr  2012 cache.p
+-rw-r--r--  1 nickp  staff     117  8 Nov 16:40 config-breast.txt
+-rw-r--r--  1 nickp  staff     122  9 Oct 14:35 config-convex.txt
+-rw-r--r--  1 nickp  staff     125  8 Nov 16:29 config-ionosphere.txt
+-rw-r--r--  1 nickp  staff     215  8 Nov 14:40 config-iri.txt
+-rw-r--r--  1 nickp  staff     115  8 Nov 16:34 config-liver.txt
+-rw-r--r--  1 nickp  staff     115  8 Nov 16:52 config-magic.txt
+-rw-r--r--  1 nickp  staff   32681  5 Sep 10:18 config-mkl-2.log
+-rw-r--r--  1 nickp  staff     210  2 Nov 04:31 config-mkl-2.txt
+-rw-r--r--  1 nickp  staff   49666  5 Sep 12:48 config-mkl-3.log
+-rw-r--r--  1 nickp  staff     216  9 Oct 14:17 config-mkl-3.txt
+-rw-r--r--  1 nickp  staff     209  7 Nov 21:08 config-pgp.txt
+-rw-r--r--  1 nickp  staff     113  8 Nov 16:37 config-pima.txt
+-rw-r--r--  1 nickp  staff     191  9 Nov 00:30 config-prover0.txt
+-rw-r--r--  1 nickp  staff     115  8 Nov 16:39 config-sonar.txt
+-rw-r--r--  1 nickp  staff     113  8 Nov 16:51 config-spam.txt
+-rw-r--r--  1 nickp  staff     114  9 Oct 14:17 config-svm-2.txt
+-rw-r--r--  1 nickp  staff     114  9 Oct 14:17 config-svm-3.txt
+-rw-r--r--  1 nickp  staff     112 29 Aug 15:45 config-svm.txt
+-rw-r--r--  1 nickp  staff     209  7 Nov 21:08 config-tdp.txt
+-rw-r--r--  1 nickp  staff     112 29 Aug 16:41 config-test.txt
+-rw-r--r--  1 nickp  staff   65418  7 Nov 21:25 hia.txt
+-rw-r--r--  1 nickp  staff   86920 28 Sep 13:16 log.txt
+-rw-r--r--  1 nickp  staff    1096 27 Sep 21:09 logger.txt
+-rw-r--r--  1 nickp  staff  742457  7 Nov 23:13 pgp.txt
+-rw-r--r--  1 nickp  staff      72 12 Nov 20:54 requirements.txt
+-rw-r--r--  1 nickp  staff   50290  8 Aug 12:42 results.pdf
+-rw-r--r--  1 nickp  staff     125 28 Sep 16:13 southwell.p
+-rw-r--r--  1 nickp  staff     524 13 Sep 18:24 svm-2.log
+-rw-r--r--  1 nickp  staff     379 13 Sep 18:23 svm-3.log
+-rw-r--r--  1 nickp  staff     128  7 Aug 23:47 table.aux
+-rw-r--r--  1 nickp  staff    2978  7 Aug 23:47 table.log
+-rw-r--r--  1 nickp  staff   44028  7 Aug 23:47 table.pdf
+-rw-r--r--  1 nickp  staff    3910  7 Aug 23:47 table.tex
+-rw-r--r--  1 nickp  staff     593  7 Aug 22:46 table_template.tex
+-rw-r--r--  1 nickp  staff  737135  8 Nov 01:45 tdp.txt
+-rw-r--r--  1 nickp  staff     641  7 Aug 19:24 texput.log
+
+scripts:
+total 24
+-rw-r--r--  1 nickp  staff  661  7 Aug 18:56 make-data.py
+-rwxr-xr-x@ 1 nickp  staff  596  6 Jun  2012 rename.py
+-rwxr-xr-x@ 1 nickp  staff  472 22 Jun 14:18 replace_labels.py
+
+sg:
+total 0
+drwxr-xr-x  3 nickp  staff  102  7 Nov 14:15 include
+drwxr-xr-x  7 nickp  staff  238  8 Nov 00:30 lib
+
+tools:
+total 8
+-rw-------  1 nickp  staff    0 10 Apr  2012 __init__.py
+-rw-r--r--  1 nickp  staff  134 13 Apr  2012 __init__.pyc

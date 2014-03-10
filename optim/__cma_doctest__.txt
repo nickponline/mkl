@@ -1,0 +1,768 @@
+**********************************************************************
+File "cma.py", line 3911, in __main__.CMADataLogger.disp
+Failed example:
+    res = cma.fmin(cma.fcts.elli, 7 * [0.1], 1, verb_disp=1e9)  # generate data
+Expected nothing
+Got:
+    (4_w,9)-CMA-ES (mu_w=2.8,w_1=49%) in dimension 7 (seed=824325, Mon Sep  3 23:11:38 2012)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1      10 6.858336377951500e+04 1.0e+00 8.85e-01  9e-01  9e-01 0:0.0
+        2      19 1.649139027808639e+05 1.1e+00 8.28e-01  8e-01  8e-01 0:0.0
+        3      28 1.385865479051422e+04 1.1e+00 7.47e-01  7e-01  8e-01 0:0.0
+      423    3808 6.182753046810239e-15 9.8e+02 3.01e-07  6e-11  6e-08 0:0.7
+    termination on tolfun=1e-11 (Mon Sep  3 23:11:39 2012)
+    final/bestever f-value = 4.725879e-15 4.725879e-15
+    mean solution: [  4.10335147e-08   1.40713769e-09  -4.09387544e-09  -1.04019766e-09
+      -1.26521037e-10  -3.21690492e-11  -8.80949508e-13]
+    std deviation: [  5.93998893e-08   1.99720154e-08   8.56899322e-09   2.09854971e-09
+       6.76097646e-10   2.02817893e-10   6.40551923e-11]
+**********************************************************************
+File "cma.py", line 3915, in __main__.CMADataLogger.disp
+Failed example:
+    l.disp([0,-1])  # first and last
+Expected nothing
+Got:
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+        1     10 6.85833637795150e+04 1.0e+00 8.86e-01 8.60e-01
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+**********************************************************************
+File "cma.py", line 3916, in __main__.CMADataLogger.disp
+Failed example:
+    l.disp(20)  # some first/last and every 20-th line
+Expected nothing
+Got:
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+        1     10 6.85833637795150e+04 1.0e+00 8.86e-01 8.60e-01
+        2     19 1.64913902780864e+05 1.1e+00 8.49e-01 7.81e-01
+       21    190 1.49350646153117e+03 2.2e+00 2.95e-01 1.57e-01
+       41    370 4.17980290505835e+02 3.8e+00 9.83e-02 3.11e-02
+       61    550 1.12883087051903e+02 5.2e+00 1.35e-02 3.00e-03
+       81    730 5.98586392727447e+01 1.2e+01 3.17e-02 2.82e-03
+      101    910 5.14018926974129e+01 2.0e+01 1.61e-02 9.28e-04
+      121   1090 7.43618374559775e+00 4.5e+01 1.52e-01 3.12e-03
+      141   1270 1.24585938572334e+00 6.1e+01 3.23e-02 5.59e-04
+      161   1450 1.25521498608574e+00 8.1e+01 5.29e-03 6.72e-05
+      181   1630 1.18913892702846e+00 8.9e+01 6.26e-03 7.27e-05
+      201   1810 7.07449118160528e-01 1.6e+02 3.34e-02 2.76e-04
+      221   1990 5.25519586595588e-01 2.1e+02 1.11e-02 7.46e-05
+      241   2170 4.70674934600379e-01 3.2e+02 8.06e-03 3.56e-05
+      261   2350 4.09124958820693e-01 3.6e+02 1.86e-02 6.43e-05
+      281   2530 1.73795175410236e-01 5.0e+02 4.55e-02 9.26e-05
+      301   2710 3.57177033767421e-03 7.0e+02 3.14e-02 4.83e-05
+      321   2890 9.66799827864646e-05 8.0e+02 4.42e-03 5.71e-06
+      341   3070 1.05717681025081e-06 9.1e+02 4.45e-04 4.94e-07
+      361   3250 1.18461502339572e-08 1.0e+03 4.78e-05 4.73e-08
+      381   3430 8.44956302243285e-11 9.4e+02 4.80e-06 5.23e-09
+      401   3610 1.79696492808921e-12 9.6e+02 5.29e-07 5.71e-10
+      421   3790 3.14025487857967e-14 1.0e+03 7.70e-08 7.97e-11
+      422   3799 2.62194173375608e-14 1.0e+03 6.74e-08 7.21e-11
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+**********************************************************************
+File "cma.py", line 3917, in __main__.CMADataLogger.disp
+Failed example:
+    l.disp(np.r_[0:999999:100, -1]) # every 100-th and last
+Expected nothing
+Got:
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+        1     10 6.85833637795150e+04 1.0e+00 8.86e-01 8.60e-01
+      101    910 5.14018926974129e+01 2.0e+01 1.61e-02 9.28e-04
+      201   1810 7.07449118160528e-01 1.6e+02 3.34e-02 2.76e-04
+      301   2710 3.57177033767421e-03 7.0e+02 3.14e-02 4.83e-05
+      401   3610 1.79696492808921e-12 9.6e+02 5.29e-07 5.71e-10
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+**********************************************************************
+File "cma.py", line 3918, in __main__.CMADataLogger.disp
+Failed example:
+    l.disp(np.r_[0, -10:0]) # first and ten last
+Expected nothing
+Got:
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+        1     10 6.85833637795150e+04 1.0e+00 8.86e-01 8.60e-01
+      414   3727 1.22972606573452e-13 1.0e+03 1.59e-07 1.56e-10
+      415   3736 2.05540696855668e-13 1.1e+03 1.45e-07 1.46e-10
+      416   3745 1.36493640110625e-13 1.1e+03 1.37e-07 1.39e-10
+      417   3754 6.95676666248877e-14 1.0e+03 1.12e-07 1.12e-10
+      418   3763 8.76231907618707e-14 1.0e+03 1.02e-07 1.05e-10
+      419   3772 3.74053013100208e-14 1.0e+03 9.63e-08 9.90e-11
+      420   3781 3.64684452970500e-14 1.0e+03 8.54e-08 8.84e-11
+      421   3790 3.14025487857967e-14 1.0e+03 7.70e-08 7.97e-11
+      422   3799 2.62194173375608e-14 1.0e+03 6.74e-08 7.21e-11
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+**********************************************************************
+File "cma.py", line 3919, in __main__.CMADataLogger.disp
+Failed example:
+    cma.disp(l.name_prefix, np.r_[0::100, -10:])  # the same as l.disp(...)
+Expected nothing
+Got:
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+    Iterat Nfevals  function value    axis ratio maxstd   minstd
+      423   3808 6.18275304681024e-15 9.8e+02 5.94e-08 6.41e-11
+**********************************************************************
+File "cma.py", line 1272, in __main__.CMAEvolutionStrategy
+Failed example:
+    es = cma.CMAEvolutionStrategy(4 * [1], 1, {'seed':234})
+Expected:
+    (4_w,8)-CMA-ES (mu_w=2.6,w_1=52%) in dimension 4 (seed=234)
+Got:
+    (4_w,8)-CMA-ES (mu_w=2.6,w_1=52%) in dimension 4 (seed=234, Mon Sep  3 23:11:39 2012)
+**********************************************************************
+File "cma.py", line 1276, in __main__.CMAEvolutionStrategy
+Failed example:
+    while not es.stop(): 
+       X = es.ask()
+       es.tell(X, [cma.fcts.elli(x) for x in X])
+       es.disp()  # by default sparse, see option verb_disp
+Expected:
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       8 2.093015112685775e+04 1.0e+00 9.27e-01  9e-01  9e-01 0:0.0 
+        2      16 4.964814235917688e+04 1.1e+00 9.54e-01  9e-01  1e+00 0:0.0 
+        3      24 2.876682459926845e+05 1.2e+00 1.02e+00  9e-01  1e+00 0:0.0 
+      100     800 6.809045875281943e-01 1.3e+02 1.41e-02  1e-04  1e-02 0:0.2 
+      200    1600 2.473662150861846e-10 8.0e+02 3.08e-05  1e-08  8e-06 0:0.5 
+      233    1864 2.766344961865341e-14 8.6e+02 7.99e-07  8e-11  7e-08 0:0.6 
+Got:
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       8 2.093015112685775e+04 1.0e+00 9.27e-01  9e-01  9e-01 0:0.0
+        2      16 5.327293102016524e+04 1.1e+00 9.54e-01  9e-01  1e+00 0:0.0
+        3      24 2.756901894460577e+05 1.2e+00 1.03e+00  9e-01  1e+00 0:0.0
+      100     800 3.943603511733267e-01 3.2e+02 2.71e-02  1e-04  3e-02 0:0.1
+      200    1600 6.431664722535331e-11 1.1e+03 6.29e-05  8e-09  8e-06 0:0.2
+      230    1840 5.521773114565047e-15 1.5e+03 1.74e-06  5e-11  8e-08 0:0.2
+**********************************************************************
+File "cma.py", line 1288, in __main__.CMAEvolutionStrategy
+Failed example:
+    cma.pprint(es.result())
+Expected:
+    (Solution([ -1.98546755e-09,  -1.10214235e-09,   6.43822409e-11,
+            -1.68621326e-11]),
+     4.5119610261406537e-16,
+     1666,
+     1672,
+     209,
+     array([ -9.13545269e-09,  -1.45520541e-09,  -6.47755631e-11,
+            -1.00643523e-11]),
+     array([  3.20258681e-08,   3.15614974e-09,   2.75282215e-10,
+             3.27482983e-11]))
+Got:
+    (array([  2.93486097e-08,   5.14427484e-09,   3.61526803e-10,
+            -2.65905918e-11]),
+     5.5217731145650466e-15,
+     1835,
+     array([  2.93486097e-08,   5.14427484e-09,   3.61526803e-10,
+            -2.65905918e-11]),
+     1840,
+     230,
+     array([ -1.03591268e-09,   5.35373126e-09,  -8.63352584e-11,
+             3.96304478e-12]),
+     array([  7.98070946e-08,   5.99699009e-09,   7.26809957e-10,
+             5.35489549e-11]))
+**********************************************************************
+File "cma.py", line 1318, in __main__.CMAEvolutionStrategy
+Failed example:
+    es = cma.CMAEvolutionStrategy(10 * [0.2], 0.5, {'bounds': [0, np.inf]})
+Expected nothing
+Got:
+    (5_w,10)-CMA-ES (mu_w=3.2,w_1=45%) in dimension 10 (seed=797202, Mon Sep  3 23:11:39 2012)
+**********************************************************************
+File "cma.py", line 1320, in __main__.CMAEvolutionStrategy
+Failed example:
+    while not es.stop():
+        fit, X = [], []
+        while len(X) < es.popsize:
+            curr_fit = np.NaN
+            while curr_fit is np.NaN:
+                x = es.ask(1)[0]    
+                curr_fit = cma.fcts.somenan(x, cma.fcts.elli) # might return np.NaN
+            X.append(x)
+            fit.append(curr_fit)
+        es.tell(X, fit)
+        logger.add()
+        es.disp()
+Expected:
+    <output omitted>
+Got:
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1      10 5.948700720328350e+02 1.0e+00 4.99e-01  5e-01  5e-01 0:0.0
+        2      20 3.317218027634260e+02 1.2e+00 4.57e-01  4e-01  5e-01 0:0.0
+        3      30 6.504217976060569e+01 1.2e+00 4.06e-01  4e-01  4e-01 0:0.0
+      100    1000 3.951524784989272e+01 6.1e+00 2.55e-02  6e-03  3e-02 0:0.4
+      200    2000 2.074425870212392e+01 1.8e+01 1.53e-02  1e-03  2e-02 0:0.7
+      300    3000 1.710319656659152e+00 5.2e+01 2.10e-02  9e-04  4e-02 0:1.1
+      400    4000 2.320268481067925e-01 1.0e+02 5.28e-03  1e-04  9e-03 0:1.5
+      500    5000 4.670125694617231e-05 1.2e+02 1.64e-03  3e-05  3e-03 0:1.9
+      600    6000 4.263349309379995e-09 1.1e+02 6.00e-05  5e-07  5e-05 0:2.2
+      700    7000 5.335625500248354e-12 7.4e+01 4.47e-06  2e-08  2e-06 0:2.6
+      741    7410 9.881278619032711e-14 5.5e+01 9.27e-07  6e-09  2e-07 0:2.8
+**********************************************************************
+File "cma.py", line 1336, in __main__.CMAEvolutionStrategy
+Failed example:
+    logger.plot()  # plot data
+Expected nothing
+Got:
+    global variable pylab.rcParams['font.size'] set (from 12) to 10
+    <cma.CMADataLogger object at 0x38b7e90>
+**********************************************************************
+File "cma.py", line 1338, in __main__.CMAEvolutionStrategy
+Failed example:
+    print('  *** if execution stalls close the figure window to continue (and check out ipython --pylab) ***')
+Expected nothing
+Got:
+      *** if execution stalls close the figure window to continue (and check out ipython --pylab) ***
+**********************************************************************
+File "cma.py", line 1346, in __main__.CMAEvolutionStrategy
+Failed example:
+    for lam in 10 * 2**np.arange(7):  # 10, 20, 40, 80, ..., 10 * 2**6
+        es = cma.CMAEvolutionStrategy('6 - 8 * np.random.rand(9)',  # 9-D
+                                      5,         # initial std sigma0
+                                      {'popsize': lam, 
+                                       'verb_append': bestever.evalsall})   # pass options
+        logger = cma.CMADataLogger().register(es, append=bestever.evalsall) 
+        while not es.stop():
+            X = es.ask()    # get list of new solutions
+            fit = [cma.fcts.rastrigin(x) for x in X]  # evaluate each solution
+            es.tell(X, fit) # besides for termination only the ranking in fit is used
+
+            # display some output
+            logger.add()  # add a "data point" to the log, writing in files
+            es.disp()  # uses option verb_disp with default 100
+
+        print('termination:', es.stop())
+        cma.pprint(es.best.__dict__)
+        
+        bestever.update(es.best)
+
+        # show a plot    
+        logger.plot();
+        if bestever.f < 1e-8:  # global optimum was hit
+            break
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python2.7/doctest.py", line 1254, in __run
+        compileflags, 1) in test.globs
+      File "<doctest __main__.CMAEvolutionStrategy[16]>", line 22, in <module>
+        logger.plot();
+      File "/home/nickp/Dropbox/Repos/mkl/optim/cma.py", line 3767, in plot
+        show()
+      File "/usr/lib/pymodules/python2.7/matplotlib/backend_bases.py", line 83, in __call__
+        self.mainloop()
+      File "/usr/lib/pymodules/python2.7/matplotlib/backends/backend_tkagg.py", line 69, in mainloop
+        Tk.mainloop()
+      File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 328, in mainloop
+        _default_root.tk.mainloop(n)
+    AttributeError: 'NoneType' object has no attribute 'tk'
+**********************************************************************
+File "cma.py", line 1380, in __main__.CMAEvolutionStrategy
+Failed example:
+    es = cma.CMAEvolutionStrategy(12 * [0.1],  # a new instance, 12-D
+                                  0.5)         # initial std sigma0
+Expected nothing
+Got:
+    (5_w,11)-CMA-ES (mu_w=3.4,w_1=42%) in dimension 12 (seed=775038, Mon Sep  3 23:12:10 2012)
+**********************************************************************
+File "cma.py", line 1383, in __main__.CMAEvolutionStrategy
+Failed example:
+    es.optimize(cma.fcts.rosen, logger, iterations=100)
+Expected nothing
+Got:
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1      11 2.020039390221902e+02 1.0e+00 4.42e-01  4e-01  4e-01 0:0.0
+        2      22 1.431950019696287e+02 1.0e+00 4.02e-01  4e-01  4e-01 0:0.0
+        3      33 9.787809333197184e+01 1.1e+00 3.68e-01  4e-01  4e-01 0:0.0
+       20     220 1.831451425671121e+01 1.3e+00 1.02e-01  9e-02  9e-02 0:0.1
+       40     440 1.011452465857070e+01 1.5e+00 2.61e-02  2e-02  2e-02 0:0.1
+       60     660 9.644438656311568e+00 1.6e+00 6.41e-03  4e-03  5e-03 0:0.1
+       80     880 9.243973854924182e+00 3.6e+00 1.51e-02  8e-03  2e-02 0:0.2
+      100    1100 8.753459979747813e+00 6.4e+00 1.98e-02  1e-02  3e-02 0:0.2
+    (array([ 0.74700304,  0.54863824,  0.31560971,  0.08212596,  0.00093229,
+            0.02891668,  0.00507903,  0.0103415 ,  0.0048974 ,  0.02023026,
+           -0.00102318, -0.00094703]), 8.6448154592060025, 1062, array([ 0.74700304,  0.54863824,  0.31560971,  0.08212596,  0.00093229,
+            0.02891668,  0.00507903,  0.0103415 ,  0.0048974 ,  0.02023026,
+           -0.00102318, -0.00094703]), 1100, 100, array([ 0.75442664,  0.54316589,  0.29957458,  0.0820796 ,  0.01484928,
+            0.01438968,  0.0111278 ,  0.03547609,  0.00499383,  0.0167658 ,
+            0.02343998,  0.00361888]), array([ 0.0305842 ,  0.03458761,  0.02668978,  0.01241314,  0.0115231 ,
+            0.0119376 ,  0.00952224,  0.01132033,  0.00983552,  0.01055337,
+            0.01179911,  0.01198011]))
+**********************************************************************
+File "cma.py", line 1384, in __main__.CMAEvolutionStrategy
+Failed example:
+    logger.plot() 
+Expected nothing
+Got:
+    <cma.CMADataLogger object at 0x454fed0>
+**********************************************************************
+File "cma.py", line 1386, in __main__.CMAEvolutionStrategy
+Failed example:
+    print('saved')
+Expected nothing
+Got:
+    saved
+**********************************************************************
+File "cma.py", line 1390, in __main__.CMAEvolutionStrategy
+Failed example:
+    print('resumed')
+Expected nothing
+Got:
+    resumed
+**********************************************************************
+File "cma.py", line 1393, in __main__.CMAEvolutionStrategy
+Failed example:
+    es.optimize(cma.fcts.rosen, logger, verb_disp=200)
+Expected nothing
+Got:
+      200    2200 6.004638280884294e+00 1.2e+01 2.79e-02  9e-03  4e-02 0:1.7
+      400    4400 1.490923374486727e+00 1.8e+01 2.55e-02  4e-03  2e-02 0:2.0
+      600    6600 4.463877847545789e-04 5.7e+01 3.27e-03  2e-04  5e-03 0:2.4
+      782    8602 5.636213105796681e-14 6.0e+01 1.06e-07  3e-09  8e-08 0:2.7
+      782    8602 5.636213105796681e-14 6.0e+01 1.06e-07  3e-09  8e-08 0:2.7
+    (array([ 1.        ,  1.00000001,  1.        ,  1.        ,  1.        ,
+            1.        ,  1.        ,  1.        ,  0.99999999,  0.99999999,
+            0.99999998,  0.99999997]), 5.6362131057966806e-14, 8600, array([ 1.        ,  1.00000001,  1.        ,  1.        ,  1.        ,
+            1.        ,  1.        ,  1.        ,  0.99999999,  0.99999999,
+            0.99999998,  0.99999997]), 8602, 782, array([ 1.        ,  1.00000001,  1.        ,  0.99999999,  0.99999999,
+            0.99999999,  1.        ,  1.        ,  1.        ,  1.        ,
+            0.99999999,  0.99999999]), array([  2.97570356e-09,   2.74009759e-09,   3.28434830e-09,
+             3.34221366e-09,   2.77268988e-09,   3.31470101e-09,
+             3.76373349e-09,   5.83612247e-09,   1.09615958e-08,
+             2.05458088e-08,   4.09195063e-08,   8.21138460e-08]), {'tolfun': 1e-11}, <cma.CMAEvolutionStrategy object at 0x6a83cd0>, <cma.CMADataLogger object at 0x6937e10>)
+**********************************************************************
+File "cma.py", line 1395, in __main__.CMAEvolutionStrategy
+Failed example:
+    cma.pprint(es.result())
+Expected nothing
+Got:
+    (array([ 1.        ,  1.00000001,  1.        ,  1.        ,  1.        ,
+            1.        ,  1.        ,  1.        ,  0.99999999,  0.99999999,
+            0.99999998,  0.99999997]),
+     5.6362131057966806e-14,
+     8600,
+     array([ 1.        ,  1.00000001,  1.        ,  1.        ,  1.        ,
+            1.        ,  1.        ,  1.        ,  0.99999999,  0.99999999,
+            0.99999998,  0.99999997]),
+     8602,
+     782,
+     array([ 1.        ,  1.00000001,  1.        ,  0.99999999,  0.99999999,
+            0.99999999,  1.        ,  1.        ,  1.        ,  1.        ,
+            0.99999999,  0.99999999]),
+     array([  2.97570356e-09,   2.74009759e-09,   3.28434830e-09,
+             3.34221366e-09,   2.77268988e-09,   3.31470101e-09,
+             3.76373349e-09,   5.83612247e-09,   1.09615958e-08,
+             2.05458088e-08,   4.09195063e-08,   8.21138460e-08]))
+**********************************************************************
+File "cma.py", line 1396, in __main__.CMAEvolutionStrategy
+Failed example:
+    logger.plot()
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python2.7/doctest.py", line 1254, in __run
+        compileflags, 1) in test.globs
+      File "<doctest __main__.CMAEvolutionStrategy[32]>", line 1, in <module>
+        logger.plot()
+      File "/home/nickp/Dropbox/Repos/mkl/optim/cma.py", line 3767, in plot
+        show()
+      File "/usr/lib/pymodules/python2.7/matplotlib/backend_bases.py", line 83, in __call__
+        self.mainloop()
+      File "/usr/lib/pymodules/python2.7/matplotlib/backends/backend_tkagg.py", line 69, in mainloop
+        Tk.mainloop()
+      File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 328, in mainloop
+        _default_root.tk.mainloop(n)
+    AttributeError: 'NoneType' object has no attribute 'tk'
+**********************************************************************
+File "cma.py", line 1608, in __main__.CMAEvolutionStrategy.ask
+Failed example:
+    es = cma.CMAEvolutionStrategy([0,0,0,0], 0.3)
+Expected nothing
+Got:
+    (4_w,8)-CMA-ES (mu_w=2.6,w_1=52%) in dimension 4 (seed=848036, Mon Sep  3 23:12:15 2012)
+**********************************************************************
+File "cma.py", line 1853, in __main__.CMAEvolutionStrategy.ask_and_eval
+Failed example:
+    es = cma.CMAEvolutionStrategy(x0, sigma0) 
+Expected nothing
+Got:
+    (5_w,10)-CMA-ES (mu_w=3.2,w_1=45%) in dimension 8 (seed=874653, Mon Sep  3 23:12:15 2012)
+**********************************************************************
+File "cma.py", line 1854, in __main__.CMAEvolutionStrategy.ask_and_eval
+Failed example:
+    while not es.stop():
+        X, fit = es.ask_and_eval(cma.fcts.elli)  # handles NaN with resampling
+        es.tell(X, fit)  # pass on fitness values
+        es.disp(20) # print every 20-th iteration
+Expected nothing
+Got:
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1      10 6.218551665862533e+07 1.0e+00 1.15e+00  1e+00  1e+00 0:0.0
+        2      20 5.065857489540076e+07 1.2e+00 1.26e+00  1e+00  1e+00 0:0.0
+        3      30 3.686073442665768e+07 1.2e+00 1.51e+00  1e+00  2e+00 0:0.0
+       20     200 2.302030320211093e+06 1.8e+00 3.04e+00  2e+00  3e+00 0:0.0
+       40     400 3.263411021656988e+05 3.6e+00 1.76e+00  8e-01  2e+00 0:0.1
+       60     600 7.009555268656973e+04 6.5e+00 7.33e-01  2e-01  1e+00 0:0.1
+       80     800 1.910590773211338e+04 1.1e+01 5.61e-01  1e-01  8e-01 0:0.1
+      100    1000 5.028249771894573e+03 1.9e+01 3.48e-01  4e-02  6e-01 0:0.1
+      120    1200 4.559677906607044e+03 2.4e+01 2.50e-01  2e-02  3e-01 0:0.2
+      140    1400 3.502436430379199e+03 3.1e+01 1.30e-01  6e-03  1e-01 0:0.2
+      160    1600 2.634856287836566e+03 4.7e+01 3.69e-01  1e-02  6e-01 0:0.2
+      180    1800 1.922252833190197e+03 7.4e+01 2.90e-01  7e-03  4e-01 0:0.2
+      200    2000 7.936852945131787e+02 1.4e+02 6.78e-01  1e-02  2e+00 0:0.3
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+      220    2200 3.527550900593617e+01 2.2e+02 2.67e-01  3e-03  7e-01 0:0.3
+      240    2400 1.627221305654885e+01 2.6e+02 5.85e-02  5e-04  1e-01 0:0.3
+      260    2600 1.529602388354573e+01 3.0e+02 3.46e-02  2e-04  6e-02 0:0.4
+      280    2800 1.172101770477563e+01 3.3e+02 1.01e-01  5e-04  1e-01 0:0.4
+      300    3000 5.409031111536454e+00 4.2e+02 1.19e-01  4e-04  2e-01 0:0.4
+      320    3200 4.773382476785660e-01 7.1e+02 1.02e-01  3e-04  2e-01 0:0.4
+      340    3400 3.693053163285744e-03 8.0e+02 1.94e-02  4e-05  3e-02 0:0.5
+      360    3600 5.940406940526696e-05 8.9e+02 2.44e-03  4e-06  3e-03 0:0.5
+      380    3800 1.365802879292945e-06 8.9e+02 3.77e-04  4e-07  3e-04 0:0.5
+      400    4000 2.266863918335075e-08 1.1e+03 7.99e-05  6e-08  6e-05 0:0.6
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+      420    4200 1.271776724484098e-09 1.1e+03 2.07e-05  1e-08  1e-05 0:0.6
+      440    4400 9.748789431755937e-11 1.0e+03 5.29e-06  3e-09  2e-06 0:0.6
+      460    4600 1.640294479327372e-12 9.0e+02 1.51e-06  6e-10  5e-07 0:0.6
+      480    4800 1.969790139651034e-14 1.0e+03 2.15e-07  6e-11  6e-08 0:0.7
+      486    4860 4.264524385393016e-15 1.0e+03 1.43e-07  4e-11  4e-08 0:0.7
+**********************************************************************
+File "cma.py", line 1858, in __main__.CMAEvolutionStrategy.ask_and_eval
+Failed example:
+    print('terminated on ' + str(es.stop()))
+Expected:
+    <output omitted>
+Got:
+    terminated on {'tolfun': 1e-11}
+**********************************************************************
+File "cma.py", line 2556, in __main__.CMAEvolutionStrategy.mahalanobisNorm
+Failed example:
+    es = cma.CMAEvolutionStrategy(numpy.ones(10), 1)
+Expected nothing
+Got:
+    (5_w,10)-CMA-ES (mu_w=3.2,w_1=45%) in dimension 10 (seed=822177, Mon Sep  3 23:12:16 2012)
+**********************************************************************
+File "cma.py", line 2908, in __main__.CMAParameters
+Failed example:
+    es = cma.CMAEvolutionStrategy(20 * [0.1], 1)
+Expected:
+    (6_w,12)-CMA-ES (mu_w=3.7,w_1=40%) in dimension 20 (seed=504519190)  # the seed is "random" by default
+Got:
+    (6_w,12)-CMA-ES (mu_w=3.7,w_1=40%) in dimension 20 (seed=811372, Mon Sep  3 23:12:16 2012)
+**********************************************************************
+File "cma.py", line 2914, in __main__.CMAParameters
+Failed example:
+    es.sp.disp()
+Expected:
+    {'CMA_on': True,
+     'N': 20,
+     'c1': 0.004181139918745593,
+     'c1_sep': 0.034327992810300939,
+     'cc': 0.17176721127681213,
+     'cc_sep': 0.25259494835857677,
+     'cmean': 1.0,
+     'cmu': 0.0085149624979034746,
+     'cmu_sep': 0.057796356229390715,
+     'cs': 0.21434997799189287,
+     'damps': 1.2143499779918929,
+     'mu': 6,
+     'mu_f': 6.0,
+     'mueff': 3.7294589343030671,
+     'popsize': 12,
+     'rankmualpha': 0.3,
+     'weights': array([ 0.40240294,  0.25338908,  0.16622156,  0.10437523,  0.05640348,
+            0.01720771])}
+Got:
+    {'CMA_on': True,
+     'N': 20,
+     'c1': 0.0043723544351602457,
+     'c1_sep': 0.034327992810300939,
+     'cc': 0.17176721127681213,
+     'cc_sep': 0.25259494835857677,
+     'cmean': 1.0,
+     'cmu': 0.0094215934760582907,
+     'cmu_sep': 0.057796356229390715,
+     'cs': 0.21434997799189287,
+     'damps': 1.2143499779918929,
+     'lam_mirr': 0,
+     'mu': 6,
+     'mu_f': 6.0,
+     'mueff': 3.7294589343030671,
+     'neg': <cma.BlancClass object at 0x90c9e50>,
+     'popsize': 12,
+     'rankmualpha': 0.3,
+     'weights': array([ 0.40240294,  0.25338908,  0.16622156,  0.10437523,  0.05640348,
+            0.01720771])}
+**********************************************************************
+File "cma.py", line 4597, in __main__.NoiseHandler
+Failed example:
+    es = cma.CMAEvolutionStrategy(np.ones(10), 1)
+Expected nothing
+Got:
+    (5_w,10)-CMA-ES (mu_w=3.2,w_1=45%) in dimension 10 (seed=830993, Mon Sep  3 23:12:16 2012)
+**********************************************************************
+File "cma.py", line 4600, in __main__.NoiseHandler
+Failed example:
+    while not es.stop():
+        X, fit = es.ask_and_eval(func, evaluations=nh.evaluations) 
+        es.tell(X, fit)  # prepare for next iteration
+        es.sigma *= nh(X, fit, func, es.ask)  # see method __call__
+        es.countevals += nh.evaluations_just_done  # this is a hack, not important though
+        logger.add(more_data = [nh.evaluations, nh.noiseS])  # add a data point 
+        es.disp()
+        # nh.maxevals = ...  it might be useful to start with smaller values and then increase
+Expected nothing
+Got:
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1      12 1.094542964398106e+01 1.1e+00 9.26e-01  9e-01  9e-01 0:0.0
+        2      24 3.581231411415109e+00 1.1e+00 9.96e-01  1e+00  1e+00 0:0.0
+        3      36 -7.796659503682960e+00 1.2e+00 1.03e+00  1e+00  1e+00 0:0.0
+      100   13886 8.181791515325956e-02 1.7e+00 1.51e-01  7e-02  9e-02 0:0.8
+      200   25300 7.888767974795115e-07 1.8e+00 1.59e-03  3e-04  4e-04 0:1.4
+      300   39416 3.357193964503307e-11 1.8e+00 2.25e-05  2e-06  3e-06 0:2.1
+      362   47490 1.074929808828114e-13 1.9e+00 1.78e-06  1e-07  1e-07 0:2.5
+**********************************************************************
+File "cma.py", line 4608, in __main__.NoiseHandler
+Failed example:
+    print(es.stop())
+Expected nothing
+Got:
+    {'tolfun': 1e-11}
+**********************************************************************
+File "cma.py", line 4609, in __main__.NoiseHandler
+Failed example:
+    print(es.result()[-2])  # take mean value, the best solution is totally off
+Expected nothing
+Got:
+    [  1.55842856e-07   2.62828553e-08  -2.03257645e-07  -4.29421583e-08
+      -4.10504735e-08   1.42164517e-07   3.82392449e-08  -1.49413877e-08
+       1.44855834e-07   5.28685883e-08]
+**********************************************************************
+File "cma.py", line 4611, in __main__.NoiseHandler
+Failed example:
+    print(X[np.argmin(fit)])  # not bad, but probably worse than the mean
+Expected nothing
+Got:
+    [  9.28332837e-08   8.19770569e-08  -9.50289317e-08  -1.93456951e-07
+       3.23327264e-08   1.31935151e-07   9.61951609e-08  -6.78593369e-08
+       6.76026891e-08   1.59686273e-07]
+**********************************************************************
+File "cma.py", line 4612, in __main__.NoiseHandler
+Failed example:
+    logger.plot()
+Expected nothing
+Got:
+    <cma.CMADataLogger object at 0x52c56d0>
+**********************************************************************
+File "cma.py", line 1119, in __main__.OOOptimizer.optimize
+Failed example:
+    res = cma.CMAEvolutionStrategy(7 * [0.1], 0.5).optimize(cma.fcts.rosen, cma.CMADataLogger(), 100) 
+Expected:
+    (4_w,9)-CMA-ES (mu_w=2.8,w_1=49%) in dimension 7 (seed=630721393)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       9 3.163954777181882e+01 1.0e+00 4.12e-01  4e-01  4e-01 0:0.0 
+        2      18 3.299006223906629e+01 1.0e+00 3.60e-01  3e-01  4e-01 0:0.0 
+        3      27 1.389129389866704e+01 1.1e+00 3.18e-01  3e-01  3e-01 0:0.0 
+      100     900 2.494847340045985e+00 8.6e+00 5.03e-02  2e-02  5e-02 0:0.3 
+      200    1800 3.428234862999135e-01 1.7e+01 3.77e-02  6e-03  3e-02 0:0.5 
+      300    2700 3.216640032470860e-04 5.6e+01 6.62e-03  4e-04  9e-03 0:0.8 
+      400    3600 6.155215286199821e-12 6.6e+01 7.44e-06  1e-07  4e-06 0:1.1 
+      438    3942 1.187372505161762e-14 6.0e+01 3.27e-07  4e-09  9e-08 0:1.2 
+      438    3942 1.187372505161762e-14 6.0e+01 3.27e-07  4e-09  9e-08 0:1.2 
+    ('termination by', {'tolfun': 1e-11})
+    ('best f-value =', 1.1189867885201275e-14)
+    ('solution =', array([ 1.        ,  1.        ,  1.        ,  0.99999999,  0.99999998,
+            0.99999996,  0.99999992]))
+Got:
+    (4_w,9)-CMA-ES (mu_w=2.8,w_1=49%) in dimension 7 (seed=818410, Mon Sep  3 23:12:20 2012)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       9 5.694465313959453e+01 1.0e+00 4.29e-01  4e-01  4e-01 0:0.0
+        2      18 4.129687671977327e+01 1.0e+00 3.77e-01  4e-01  4e-01 0:0.0
+        3      27 4.841877701317516e+01 1.1e+00 3.48e-01  3e-01  3e-01 0:0.0
+      100     900 2.160150391587675e+00 9.0e+00 3.37e-02  1e-02  3e-02 0:0.2
+      200    1800 2.037174946676636e-01 1.4e+01 2.90e-02  3e-03  1e-02 0:0.3
+      300    2700 5.081710945889576e-06 6.2e+01 2.08e-03  7e-05  2e-03 0:0.4
+      400    3600 1.549304225053800e-13 7.4e+01 1.09e-06  9e-09  3e-07 0:0.6
+      411    3699 1.023520820465142e-14 7.5e+01 4.00e-07  3e-09  8e-08 0:0.6
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+      411    3699 1.023520820465142e-14 7.5e+01 4.00e-07  3e-09  8e-08 0:0.6
+**********************************************************************
+File "cma.py", line 1135, in __main__.OOOptimizer.optimize
+Failed example:
+    print(res[0])
+Expected:
+    [ 1.          1.          1.          0.99999999  0.99999998  0.99999996
+      0.99999992]
+Got:
+    [ 1.          1.          1.          1.          0.99999999  1.
+      0.99999999]
+**********************************************************************
+File "cma.py", line 4818, in __main__.Sections
+Failed example:
+    s.do(plot=False)  # evaluate the same points again, i.e. check for noise
+Expected nothing
+Got:
+    <cma.Sections object at 0x6b44d10>
+**********************************************************************
+File "cma.py", line 4819, in __main__.Sections
+Failed example:
+    try:
+        s.plot()
+    except: 
+        print('plotting failed: pylab package is missing?')
+Expected nothing
+Got:
+    <cma.Sections object at 0x6b44d10>
+**********************************************************************
+File "cma.py", line 354, in __main__.SolutionDict
+Failed example:
+    d.get(x) == (d[x] if d.key(x) in d.keys() else None)
+Expected nothing
+Got:
+    True
+**********************************************************************
+File "cma.py", line 4313, in __main__.fmin
+Failed example:
+    res = cma.fmin(cma.fcts.rosen, [0.1] * 10, 0.5, **options)
+Expected:
+    (5_w,10)-CMA-ES (mu_w=3.2,w_1=45%) in dimension 10 (seed=1234)
+       Covariance matrix is diagonal for 10 iterations (1/ccov=29.0)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1      10 1.264232686260072e+02 1.1e+00 4.40e-01  4e-01  4e-01 
+        2      20 1.023929748193649e+02 1.1e+00 4.00e-01  4e-01  4e-01 
+        3      30 1.214724267489674e+02 1.2e+00 3.70e-01  3e-01  4e-01 
+      100    1000 6.366683525319511e+00 6.2e+00 2.49e-02  9e-03  3e-02 
+      200    2000 3.347312410388666e+00 1.2e+01 4.52e-02  8e-03  4e-02 
+      300    3000 1.027509686232270e+00 1.3e+01 2.85e-02  5e-03  2e-02 
+      400    4000 1.279649321170636e-01 2.3e+01 3.53e-02  3e-03  3e-02 
+      500    5000 4.302636076186532e-04 4.6e+01 4.78e-03  3e-04  5e-03 
+      600    6000 6.943669235595049e-11 5.1e+01 5.41e-06  1e-07  4e-06 
+      650    6500 5.557961334063003e-14 5.4e+01 1.88e-07  4e-09  1e-07 
+    termination on tolfun : 1e-11
+    final/bestever f-value = 5.55796133406e-14 2.62435631419e-14
+    mean solution:  [ 1.          1.00000001  1.          1.          
+        1.          1.00000001  1.00000002  1.00000003 ...]
+    std deviation: [ 3.9193387e-09  3.7792732e-09  4.0062285e-09  4.6605925e-09
+        5.4966188e-09   7.4377745e-09   1.3797207e-08   2.6020765e-08 ...]
+Got:
+    (5_w,10)-CMA-ES (mu_w=3.2,w_1=45%) in dimension 10 (seed=1234, Mon Sep  3 23:12:24 2012)
+       Covariance matrix is diagonal for 10 iterations (1/ccov=25.0)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1      11 1.264232686260072e+02 1.1e+00 4.40e-01  4e-01  4e-01 
+        2      21 1.023929748193650e+02 1.1e+00 4.00e-01  4e-01  4e-01 
+        3      31 1.214724267489675e+02 1.2e+00 3.70e-01  3e-01  4e-01 
+      100    1001 6.482327736810938e+00 5.3e+00 2.36e-02  8e-03  2e-02 
+      200    2001 3.528783163105694e+00 1.1e+01 6.82e-02  1e-02  5e-02 
+      300    3001 1.089810439100223e+00 1.9e+01 6.93e-02  1e-02  4e-02 
+      400    4001 1.116032382311330e-01 2.8e+01 4.33e-02  3e-03  3e-02 
+      500    5001 8.911162215521313e-05 4.5e+01 4.44e-03  2e-04  4e-03 
+      600    6001 4.501661029967123e-11 5.3e+01 6.16e-06  1e-07  3e-06 
+      647    6471 1.858727036694841e-14 6.5e+01 2.14e-07  3e-09  8e-08 
+    termination on tolfun=1e-11 (Mon Sep  3 23:12:25 2012)
+    final/bestever f-value = 1.201660e-14 1.201660e-14
+    mean solution: [ 1.          1.          1.          1.          1.          1.
+      1.00000001  1.00000001 ...]
+    std deviations: [  2.74864825e-09   2.80848240e-09   2.74679857e-09   3.26413137e-09
+       3.57036348e-09   5.83235465e-09   1.01907822e-08   1.96340199e-08 ...]
+**********************************************************************
+File "cma.py", line 4334, in __main__.fmin
+Failed example:
+    print('best solutions fitness = %f' % (res[1]))
+Expected:
+    best solutions fitness = 2.62435631419e-14
+Got:
+    best solutions fitness = 0.000000
+**********************************************************************
+File "cma.py", line 243, in __main__.unitdoctest
+Failed example:
+    res = cma.fmin(cma.fcts.elli, 3*[1], 1, CMA_diagonal=2, seed=1, verb_time=0)
+Expected:
+    (3_w,7)-CMA-ES (mu_w=2.3,w_1=58%) in dimension 3 (seed=1)
+       Covariance matrix is diagonal for 2 iterations (1/ccov=7.0)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       7 1.453161670768570e+04 1.2e+00 1.08e+00  1e+00  1e+00 
+        2      14 3.281197961927601e+04 1.3e+00 1.22e+00  1e+00  2e+00 
+        3      21 1.082851071704020e+04 1.3e+00 1.24e+00  1e+00  2e+00 
+      100     700 8.544042012075362e+00 1.4e+02 3.18e-01  1e-03  2e-01 
+      200    1400 5.691152415221861e-12 1.0e+03 3.82e-05  1e-09  1e-06 
+      220    1540 3.890107746209078e-15 9.5e+02 4.56e-06  8e-11  7e-08 
+    termination on tolfun : 1e-11
+    final/bestever f-value = 3.89010774621e-15 2.52273602735e-15
+    mean solution:  [ -4.63614606e-08  -3.42761465e-10   1.59957987e-11]
+    std deviation: [  6.96066282e-08   2.28704425e-09   7.63875911e-11]
+Got:
+    (3_w,7)-CMA-ES (mu_w=2.3,w_1=58%) in dimension 3 (seed=1, Mon Sep  3 23:12:25 2012)
+       Covariance matrix is diagonal for 2 iterations (1/ccov=6.0)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       8 6.455782980408193e+04 1.2e+00 1.27e+00  1e+00  1e+00 
+        2      15 4.835102067530947e+03 1.3e+00 1.16e+00  1e+00  1e+00 
+        3      22 3.276359716903814e+04 1.3e+00 1.06e+00  9e-01  1e+00 
+      100     701 4.510232474614145e-02 6.2e+02 5.02e-02  7e-05  3e-02 
+      188    1317 1.985705685361853e-15 1.4e+03 2.78e-06  4e-11  5e-08 
+    termination on tolfun=1e-11 (Mon Sep  3 23:12:25 2012)
+    final/bestever f-value = 2.052125e-16 1.894497e-16
+    mean solution: [ -1.24609528e-08   2.19431725e-10   1.33673319e-12]
+    std deviation: [  4.85737816e-08   1.05750530e-09   3.66987814e-11]
+**********************************************************************
+File "cma.py", line 261, in __main__.unitdoctest
+Failed example:
+    res = cma.fmin(cma.fcts.rosen, 4*[-1],1, ftarget=1e-6, restarts=3, verb_time=0, verb_disp=500, seed=3)
+Expected:
+    (4_w,8)-CMA-ES (mu_w=2.6,w_1=52%) in dimension 4 (seed=3)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       8 4.875315645656848e+01 1.0e+00 8.43e-01  8e-01  8e-01 
+        2      16 1.662319948123120e+02 1.1e+00 7.67e-01  7e-01  8e-01 
+        3      24 6.747063604799602e+01 1.2e+00 7.08e-01  6e-01  7e-01 
+      184    1472 3.701428610430019e+00 4.3e+01 9.41e-07  3e-08  5e-08 
+    termination on tolfun : 1e-11
+    final/bestever f-value = 3.70142861043 3.70142861043
+    mean solution:  [-0.77565922  0.61309336  0.38206284  0.14597202]
+    std deviation: [  2.54211502e-08   3.88803698e-08   4.74481641e-08   3.64398108e-08]
+    (8_w,16)-CMA-ES (mu_w=4.8,w_1=32%) in dimension 4 (seed=4)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1    1489 2.011376859371495e+02 1.0e+00 8.90e-01  8e-01  9e-01 
+        2    1505 4.157106647905128e+01 1.1e+00 8.02e-01  7e-01  7e-01 
+        3    1521 3.548184889359060e+01 1.1e+00 1.02e+00  8e-01  1e+00 
+      111    3249 6.831867555502181e-07 5.1e+01 2.62e-02  2e-04  2e-03 
+    termination on ftarget : 1e-06
+    final/bestever f-value = 6.8318675555e-07 1.18576673231e-07
+    mean solution:  [ 0.99997004  0.99993938  0.99984868  0.99969505]
+    std deviation: [ 0.00018973  0.00038006  0.00076479  0.00151402]
+Got:
+    (4_w,8)-CMA-ES (mu_w=2.6,w_1=52%) in dimension 4 (seed=3, Mon Sep  3 23:12:25 2012)
+    Iterat #Fevals   function value     axis ratio  sigma   minstd maxstd min:sec
+        1       9 7.970404237237670e+02 1.0e+00 1.01e+00  9e-01  1e+00 
+        2      17 5.065265428821625e+02 1.2e+00 1.00e+00  9e-01  1e+00 
+        3      25 1.842686263158443e+02 1.4e+00 1.09e+00  1e+00  1e+00 
+      229    1833 5.240865425164926e-07 5.7e+01 3.35e-02  1e-04  1e-03 
+    termination on ftarget=1e-06 (Mon Sep  3 23:12:26 2012)
+    final/bestever f-value = 4.696679e-07 4.696679e-07
+    mean solution: [ 0.99996828  1.00000198  0.99998452  0.99997408]
+    std deviation: [ 0.0001279   0.00025929  0.00052063  0.0010129 ]
+**********************************************************************
+File "cma.py", line 296, in __main__.unitdoctest
+Failed example:
+    res = cma.fmin(cma.fcts.rosen, 4 * [0.1], 0.1, **opts)
+Expected:
+    termination on tolfun : 1e-11
+    final/bestever f-value = 2.68096173031e-14 1.09714829146e-14
+    mean solution:  [ 1.00000001  1.00000002  1.00000004  1.00000007]
+    std deviation: [  3.00466854e-08   5.88400826e-08   1.18482371e-07   2.34837383e-07]
+Got nothing
+**********************************************************************
+12 items had failures:
+   6 of  10 in __main__.CMADataLogger.disp
+  16 of  33 in __main__.CMAEvolutionStrategy
+   1 of   3 in __main__.CMAEvolutionStrategy.ask
+   3 of   5 in __main__.CMAEvolutionStrategy.ask_and_eval
+   1 of   4 in __main__.CMAEvolutionStrategy.mahalanobisNorm
+   2 of   4 in __main__.CMAParameters
+   6 of  11 in __main__.NoiseHandler
+   2 of   3 in __main__.OOOptimizer.optimize
+   2 of   4 in __main__.Sections
+   1 of   5 in __main__.SolutionDict
+   2 of   5 in __main__.fmin
+   3 of  12 in __main__.unitdoctest
+***Test Failed*** 45 failures.
